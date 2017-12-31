@@ -117,11 +117,11 @@
 .table .left, .item-header {
     background: #02A58A;
 }
-.inner-table .right {
-	background: #1BB498;
-}
 .table .right {
     background: #51CDB7;
+}
+.inner-table .right {
+	background: #1BB498;
 }
 .table .right_odd {
     background: #68D8C9;
