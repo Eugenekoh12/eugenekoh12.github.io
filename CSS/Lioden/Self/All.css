@@ -37,6 +37,22 @@
 .font-Inline {font-family: 'Inline', cursive;}
 .font-Outline {font-family: 'Outline', cursive;}
 .font-Styled {font-family: 'Styled', cursive;}
+.font-size-x0-5 {font-size: 0.5em;}
+.font-size-x0-6 {font-size: 0.6em;}
+.font-size-x0-7 {font-size: 0.7em;}
+.font-size-x0-8 {font-size: 0.8em;}
+.font-size-x0-9 {font-size: 0.9em;}
+.font-size-x1 {font-size: 1em;}
+.font-size-x1-1 {font-size: 1.1em;}
+.font-size-x1-2 {font-size: 1.2em;}
+.font-size-x1-3 {font-size: 1.3em;}
+.font-size-x1-4 {font-size: 1.4em;}
+.font-size-x1-5 {font-size: 1.5em;}
+.font-size-x1-6 {font-size: 1.6em;}
+.font-size-x1-7 {font-size: 1.7em;}
+.font-size-x1-8 {font-size: 1.8em;}
+.font-size-x1-9 {font-size: 1.9em;}
+.font-size-x2 {font-size: 2em;}
 .breadcrumb {
 	background: rgba(19, 255, 163, 0.48);
 }
