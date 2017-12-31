@@ -37,6 +37,10 @@
 .font-Inline {font-family: 'Inline', cursive;}
 .font-Outline {font-family: 'Outline', cursive;}
 .font-Styled {font-family: 'Styled', cursive;}
+.font-size-x0-1 {font-size: 0.1em;}
+.font-size-x0-2 {font-size: 0.2em;}
+.font-size-x0-3 {font-size: 0.3em;}
+.font-size-x0-4 {font-size: 0.4em;}
 .font-size-x0-5 {font-size: 0.5em;}
 .font-size-x0-6 {font-size: 0.6em;}
 .font-size-x0-7 {font-size: 0.7em;}
@@ -53,6 +57,36 @@
 .font-size-x1-8 {font-size: 1.8em;}
 .font-size-x1-9 {font-size: 1.9em;}
 .font-size-x2 {font-size: 2em;}
+.font-size-x2-1 {font-size: 2.1em;}
+.font-size-x2-2 {font-size: 2.2em;}
+.font-size-x2-3 {font-size: 2.3em;}
+.font-size-x2-4 {font-size: 2.4em;}
+.font-size-x2-5 {font-size: 2.5em;}
+.font-size-x2-6 {font-size: 2.6em;}
+.font-size-x2-7 {font-size: 2.7em;}
+.font-size-x2-8 {font-size: 2.8em;}
+.font-size-x2-9 {font-size: 2.9em;}
+.font-size-x3 {font-size: 3em;}
+.font-size-x3-1 {font-size: 3.1em;}
+.font-size-x3-2 {font-size: 3.2em;}
+.font-size-x3-3 {font-size: 3.3em;}
+.font-size-x3-4 {font-size: 3.4em;}
+.font-size-x3-5 {font-size: 3.5em;}
+.font-size-x3-6 {font-size: 3.6em;}
+.font-size-x3-7 {font-size: 3.7em;}
+.font-size-x3-8 {font-size: 3.8em;}
+.font-size-x3-9 {font-size: 3.9em;}
+.font-size-x4 {font-size: 4em;}
+.font-size-x4-1 {font-size: 4.1em;}
+.font-size-x4-2 {font-size: 4.2em;}
+.font-size-x4-3 {font-size: 4.3em;}
+.font-size-x4-4 {font-size: 4.4em;}
+.font-size-x4-5 {font-size: 4.5em;}
+.font-size-x4-6 {font-size: 4.6em;}
+.font-size-x4-7 {font-size: 4.7em;}
+.font-size-x4-8 {font-size: 4.8em;}
+.font-size-x4-9 {font-size: 4.9em;}
+.font-size-x5 {font-size: 5em;}
 .breadcrumb {
 	background: rgba(19, 255, 163, 0.48);
 }
@@ -70,7 +104,7 @@
     background-repeat: no-repeat;
 }
 .table .top, .table th {
-	background-color: rgba(186,255,238,0);
+	background-color: rgba(186,255,238,1);
 	color: rgb(0,255,184);
 }
 .left.b {
