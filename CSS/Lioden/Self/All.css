@@ -104,8 +104,8 @@
     background-repeat: no-repeat;
 }
 .table .top, .table th {
-	background-color: rgba(186,255,238,1);
-	color: rgb(0,255,184);
+	background-color: rgb(0,255,184);
+	color: rgb(186,255,238);
 }
 .left.b {
 	
