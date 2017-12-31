@@ -40,7 +40,7 @@
 .breadcrumb {
 	background: rgba(19, 255, 163, 0.48);
 }
-.col-md-9.col-xs-12 {
+.col-md-9.col-xs-12 {	
 	background: transparent;
 }
 .sidebar.col-md-3.visible-xs.visible-sm.col-xs-12.visible-md.visible-lg {
@@ -52,6 +52,10 @@
 	background-size: 85.84905660377358% 100%;
     background-position: center;
     background-repeat: no-repeat;
+}
+.table .top, .table th {
+	background-color: rgba(186,255,238,0);
+	color: rgb(0,255,184);
 }
 .left.b {
 	
