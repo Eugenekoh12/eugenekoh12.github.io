@@ -28,6 +28,9 @@
   font-weight: 400;
   src: local('Bungee Shade'), local('BungeeShade-Regular'), url(https://fonts.gstatic.com/s/bungeeshade/v3/HSW7pxPYXBWkq7OSnuXoeInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
 }
+.body {
+	color: #00674a;
+}
 .main {
 	background: linear-gradient(to right, rgba(186,255,238,1) 0%,rgba(186,255,238,0.5607843137254902) 3%,rgba(186,255,238,0.5607843137254902) 97%,rgba(186,255,238,1) 100%);
 }
@@ -103,12 +106,31 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.table {
+.table, .item {
 	border: 1px solid #00674a;
+	background: #ADEFE9;
 }
-.table .top, .table th {
-	background-color: #00ffb8;
-	color: #00674a;
+.table .top, .table th , .table .bottom{
+	background-color: #00584D;
+	color: #00ffb8;
+}
+.table .left, .item-header {
+    background: #02A58A;
+}
+.inner-table .right {
+	background: #1BB498;
+}
+.table .right {
+    background: #51CDB7;
+}
+.table .right_odd {
+    background: #68D8C9;
+}
+.slider {
+	background-color: #5BCCBA;
+}
+input:checked + .slider {
+    background-color: #00A428;
 }
 .left.b {
 	
