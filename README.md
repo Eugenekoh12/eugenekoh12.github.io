@@ -1,3 +1,32 @@
+##My Personal Github area.
+
+Loads of the things here are for personal use and really won't apply to anyone else in most situations. If it is ever useful for you then you're welcome to use it I suppose. 
+
+Most userscripts can be traced back to their original githubs, just modified for my personal use here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Eugenekoh12/Personal/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
