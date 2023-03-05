@@ -113,7 +113,7 @@ DB. support functions
         let replaceRules = [
             //[//i, ""], // rule template
 
-            [/Da, Dahei/i, " Coaly"],
+            [/Da, Dahei/i, "Co, Coaly"],
             [/ Dahei /i, " Coaly "],
             [/Dahei /i, "Coaly "],
             [/ Dahei/i, " Coaly"],
