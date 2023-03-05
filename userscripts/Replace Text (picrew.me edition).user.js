@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Replace Text [picrew.me]
-// @namespace    https://github.com/erickRecai
+// @namespace    https://github.com/Eugenekoh12/Personal
 // @version      1.05.03
 // @description  Replaces text with other text. For picrew.me only.
 // @author       guyRicky, modified for personal use on picrew.me.
@@ -8,6 +8,9 @@
 
 // @match        *://picrew.me/*
 // @noframes
+
+// @updateURL
+// @downloadURL
 
 // @exclude      *://docs.google.com/*
 // @exclude      *://drive.google.com/*
