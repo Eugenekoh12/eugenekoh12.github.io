@@ -28,7 +28,8 @@
     'use strict';
 
     if(0){/*
-last update: 7/04/2020
+Original Replace Text last update: 20/09/2021
+Customized Replace Text last update: 05/03/2023
 
 == todo ==
 1. comment on iframes.
