@@ -9,8 +9,8 @@
 // @match        *://picrew.me/*
 // @noframes
 
-// @updateURL
-// @downloadURL
+// @updateURL    https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text%20(picrew.me%20edition).meta.js
+// @downloadURL  https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text%20(picrew.me%20edition).user.js
 
 // @exclude      *://docs.google.com/*
 // @exclude      *://drive.google.com/*
