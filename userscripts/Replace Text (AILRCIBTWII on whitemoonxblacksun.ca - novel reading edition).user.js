@@ -10,8 +10,8 @@
 // @match        *://whitemoonxblacksun.ca/category/after-i-livestreamed-raising-cubs-i-became-the-wealthiest-in-interstellar/
 // @noframes
 
-// @updateURL    https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text%20(1%20edition).meta.js
-// @downloadURL  https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text%20(1%20edition).user.js
+// @updateURL    https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text%20(AILRCIBTWII%20on%20whitemoonxblacksun.ca%20-%20novel%20reading%20edition).meta.js
+// @downloadURL  https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text%20(AILRCIBTWII%20on%20whitemoonxblacksun.ca%20-%20novel%20reading%20edition).user.js
 
 // @exclude      *://docs.google.com/*
 // @exclude      *://drive.google.com/*
