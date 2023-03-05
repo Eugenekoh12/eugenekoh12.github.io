@@ -8,6 +8,7 @@
 // @match        *://*/*
 // @noframes
 
+// @exclude      *://whitemoonxblacksun.ca/*/*/*/after-i-livestreamed-raising-cubs-i-became-the-wealthiest-in-interstellar-*
 // @exclude      *://picrew.me/*
 // @exclude      *://docs.google.com/*
 // @exclude      *://drive.google.com/*
