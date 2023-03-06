@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Replace Text - whitemoonxblacksun.ca - AILRCIBTWII
 // @namespace    https://github.com/Eugenekoh12/Personal
-// @version      1.0.3.5
+// @version      1.0.3.6
 // @description  Modified from https://github.com/erickRecai/Replace-Text v1.05.03 by guyRicky. Replaces text with other text for AILRCIBTWII on whitemoonxblacksun.ca.
 // @author       Eugenekoh12
 
@@ -87,6 +87,8 @@ DB. support functions
             [/I listen to you\!/i, "I'll listen to you!"],
             [/Taking one after training is beautiful/i, "Taking one after training makes your body feel great"],
             [/It is very suitable to eat after excessive use of abilities or mental impact/i, "It is best to eat it after excessive use of mental abilities"],
+            [/the little panda asked his bad friend/i, "the little red panda asked his bad friend"],
+            [/little panda/i, "little red panda"], //Might have to remove this as I'm not sure if the MTL part differentiates what a panda is and what a red panda is.
             //Changes the Character nickname for Arthur's Animal Form to Coaly
             [/Da\, Dahei/i, "Co, Coaly"],
             [/( Dahei | Da Hei | Blacky )/i, " Coaly "],
