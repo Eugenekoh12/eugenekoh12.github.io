@@ -202,33 +202,33 @@ DB. support functions
             [/and glared at the little panda/i, "and glared at the red panda"],
             [/The little panda pouted\. Why was he so hostile to me\?/i, "The red panda pouted. Why was he so hostile to me?"],
             [/A good little panda\, how come he has a long mouth/i, "A good red panda, how come he has a long mouth"],
-            [/turned and walked towards the shivering little panda/i, "turned and walked towards the shivering red panda"]
-            [/The little panda bowed his head in frustration/i, "The red panda bowed his head in frustration"]
-            [/A cute little panda\, why couldn\’t he control his mouth/i, "A cute red panda, why couldn’t he control his mouth"]
-            [/Ever since he met this little panda with a mouth/i, "Ever since he met this red panda with a mouth"]
-            [/Mingyou looked at the greedy little panda/i, "Mingyou looked at the greedy red panda"]
-            [/Alas\, what\’s he doing with a little panda/i, "Alas, what’s he doing with a red panda"]
-            [/The little panda stretched out two paws to hold the bowl/i, "The red panda stretched out two paws to hold the bowl"]
-            [/Little panda\: “???\?/i, "Red panda: “???"]
-            [/The little panda thought about it carefully and thought it made sense/i, "The red panda thought about it carefully and thought it made sense"]
-            [/a little panda\, only needs one paw to push the young man to the ground/i, "a red panda, only needs one paw to push the young man to the ground"]
-            [/The little panda stretched out his claws at Mingyou/i, "The red panda stretched out his claws at Mingyou"]
-            [/A cute little panda\, why did he open his mouth/i, "A cute redpanda, why did he open his mouth"]
-            [/Today it is Huo Ritian\’s orange\! Let me see the little panda/i, "Today it is Huo Ritian’s orange! Let me see the red panda"]
-            [/Ah\, little panda\! As long as Huo Ritian doesn\’t speak, he is the cutest/i, "Ah, red panda! As long as Huo Ritian doesn’t speak, he is the cutest"]
-            [/A cute little panda\, why was the tail scorched/i, "A cute red panda, why was the tail scorched"]
-            [/little panda who was gossipy and not afraid of death/i, "red panda who was gossipy and not afraid of death"]
-            [/Why did this little panda have such a mouth/i, "Why did this red panda have such a mouth"]
-            [/this little panda was nicknamed Huo Ritian/i, "this red panda was named Huo Ritian"]
-            [/thinking that maybe the little panda might be cute too/i, "thinking that maybe the red panda might be cute too"]
-            [/The little panda said unhappily/i, "The red panda said unhappily"]
-            [/and the red fox looked blankly at the little panda holding his tail/i, "and the red fox looked blankly at the red panda holding his tail"]
-            [/The little panda yawned\, revealing his little pink tongue/i, "The red panda yawned, revealing his little pink tongue"]
-            [/The little panda walked to the table/i, "The red panda walked to the table"]
-            [/Little Panda and Purple Horse/i, "Red Panda and Purple Horse"]
-            [/The little panda opened his round eyes\, and the scholar’s expression turned into a gossiping expression/i, "The red panda opened his round eyes, and the scholar’s expression turned into a gossiping expression"]
-            [/it was impossible for him to really eat this little panda/i, "it was impossible for him to really eat this red panda"]
-            [/the little panda and the purple horse couldn/i, "the red panda and the purple horse couldn"]
+            [/turned and walked towards the shivering little panda/i, "turned and walked towards the shivering red panda"],
+            [/The little panda bowed his head in frustration/i, "The red panda bowed his head in frustration"],
+            [/A cute little panda\, why couldn\’t he control his mouth/i, "A cute red panda, why couldn’t he control his mouth"],
+            [/Ever since he met this little panda with a mouth/i, "Ever since he met this red panda with a mouth"],
+            [/Mingyou looked at the greedy little panda/i, "Mingyou looked at the greedy red panda"],
+            [/Alas\, what\’s he doing with a little panda/i, "Alas, what’s he doing with a red panda"],
+            [/The little panda stretched out two paws to hold the bowl/i, "The red panda stretched out two paws to hold the bowl"],
+            [/Little panda\: “\?\?\?/i, "Red panda: “???"],
+            [/The little panda thought about it carefully and thought it made sense/i, "The red panda thought about it carefully and thought it made sense"],
+            [/a little panda\, only needs one paw to push the young man to the ground/i, "a red panda, only needs one paw to push the young man to the ground"],
+            [/The little panda stretched out his claws at Mingyou/i, "The red panda stretched out his claws at Mingyou"],
+            [/A cute little panda\, why did he open his mouth/i, "A cute redpanda, why did he open his mouth"],
+            [/Today it is Huo Ritian\’s orange\! Let me see the little panda/i, "Today it is Huo Ritian’s orange! Let me see the red panda"],
+            [/Ah\, little panda\! As long as Huo Ritian doesn\’t speak, he is the cutest/i, "Ah, red panda! As long as Huo Ritian doesn’t speak, he is the cutest"],
+            [/A cute little panda\, why was the tail scorched/i, "A cute red panda, why was the tail scorched"],
+            [/little panda who was gossipy and not afraid of death/i, "red panda who was gossipy and not afraid of death"],
+            [/Why did this little panda have such a mouth/i, "Why did this red panda have such a mouth"],
+            [/this little panda was nicknamed Huo Ritian/i, "this red panda was named Huo Ritian"],
+            [/thinking that maybe the little panda might be cute too/i, "thinking that maybe the red panda might be cute too"],
+            [/The little panda said unhappily/i, "The red panda said unhappily"],
+            [/and the red fox looked blankly at the little panda holding his tail/i, "and the red fox looked blankly at the red panda holding his tail"],
+            [/The little panda yawned\, revealing his little pink tongue/i, "The red panda yawned, revealing his little pink tongue"],
+            [/The little panda walked to the table/i, "The red panda walked to the table"],
+            [/Little Panda and Purple Horse/i, "Red Panda and Purple Horse"],
+            [/The little panda opened his round eyes\, and the scholar’s expression turned into a gossiping expression/i, "The red panda opened his round eyes, and the scholar’s expression turned into a gossiping expression"],
+            [/it was impossible for him to really eat this little panda/i, "it was impossible for him to really eat this red panda"],
+            [/the little panda and the purple horse couldn/i, "the red panda and the purple horse couldn"],
             [/( Dacheng | Da Cheng )/i, " Peachy "],
             [/(Dacheng |Da Cheng )/i, "Peachy "],
             [/( Dacheng| Da Cheng)/i, " Peachy"],
