@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Replace Text - whitemoonxblacksun.ca - AILRCIBTWII
 // @namespace    https://github.com/Eugenekoh12/Personal
-// @version      1.0.3
+// @version      1.0.3.1
 // @description  Modified from https://github.com/erickRecai/Replace-Text v1.05.03 by guyRicky. Replaces text with other text for AILRCIBTWII on whitemoonxblacksun.ca.
 // @author       Eugenekoh12
 
@@ -210,7 +210,8 @@ DB. support functions
             [/Da Qing /i, "Ceruley "],
             [/ Da Qing/i, " Ceruley"],
             [/Da Qing/i, "Ceruley"],
-            [/Dian/i, "Dot"],
+            [/ Dian /i, " Dot "],
+            [/ Dian/i, " Dot"],
             [/ Diandian /i, " Dotty "],
             [/Diandian /i, "Dotty "],
             [/ Diandian/i, " Dotty"],
