@@ -83,7 +83,7 @@ DB. support functions
         // ==== AB. replace rules =================================================================|
 
         let replaceRules = [
-            //Gramatical fixes
+            //Sentencing Fixes
             [/I listen to you\!/i, "I'll listen to you!"],
             [/Taking one after training is beautiful/i, "Taking one after training makes your body feel great"],
             [/It is very suitable to eat after excessive use of abilities or mental impact/i, "It is best to eat it after excessive use of mental abilities"],
