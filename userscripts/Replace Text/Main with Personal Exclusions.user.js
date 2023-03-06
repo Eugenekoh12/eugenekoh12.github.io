@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Replace Text [with personal exclusions]
+// @name         Replace Text Main - with Personal Exclusions
 // @namespace    https://github.com/Eugenekoh12/Personal
 // @version      1.0.3
 // @description  Modified from https://github.com/erickRecai/Replace-Text v1.05.03 by guyRicky. Replaces text with other text.
