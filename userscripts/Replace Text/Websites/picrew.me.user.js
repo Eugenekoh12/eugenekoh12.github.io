@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Replace Text [picrew.me]
+// @name         Replace Text - picrew.me specific
 // @namespace    https://github.com/Eugenekoh12/Personal
-// @version      1.0.0
+// @version      1.0.1
 // @description  Modified from https://github.com/erickRecai/Replace-Text v1.05.03 by guyRicky. Replaces text with other text for picrew.me only.
 // @author       Eugenekoh12
 
@@ -9,8 +9,8 @@
 // @match        *://picrew.me/*
 // @noframes
 
-// @updateURL    https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text%20(picrew.me%20edition).meta.js
-// @downloadURL  https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text%20(picrew.me%20edition).user.js
+// @updateURL    https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text/Websites/picrew.me.meta.js
+// @downloadURL  https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text/Websites/picrew.me.user.js
 
 // @exclude      *://docs.google.com/*
 // @exclude      *://drive.google.com/*
@@ -29,7 +29,7 @@
 
     if(0){/*
 Original Replace Text last update: 20/09/2021
-Customized Replace Text last update: 05/03/2023
+Customized Replace Text last update: 06/03/2023
 
 == todo ==
 1. comment on iframes.
@@ -113,7 +113,6 @@ DB. support functions
         let replaceRules = [
             //[//i, ""], // rule template
 
-            // basic examples:
             [/個人/i, "Personal Use"],
             [/非商用/i, "Non-Commerical Use"],
             [/商用/i, "Commercial Use"],
@@ -136,6 +135,7 @@ DB. support functions
             [/Picrewの遊び方/i, "How to use Picrew"],
             [/Picrewでつくる/i, "Make your own Picrew"],
             [/おしらせ/i, "News"],
+            // basic examples:
             //[/commit/i, "dog"],
             //[/branch/i, "turtle"],
             //[/file/i, "birdie"],
