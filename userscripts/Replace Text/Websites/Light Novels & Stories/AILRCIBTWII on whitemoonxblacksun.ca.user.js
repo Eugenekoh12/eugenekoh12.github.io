@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Replace Text - whitemoonxblacksun.ca - AILRCIBTWII
 // @namespace    https://github.com/Eugenekoh12/Personal
-// @version      1.0.3.4
+// @version      1.0.3.5
 // @description  Modified from https://github.com/erickRecai/Replace-Text v1.05.03 by guyRicky. Replaces text with other text for AILRCIBTWII on whitemoonxblacksun.ca.
 // @author       Eugenekoh12
 
@@ -83,14 +83,12 @@ DB. support functions
         // ==== AB. replace rules =================================================================|
 
         let replaceRules = [
-            //[//i, ""], // rule template
-
             //Gramatical fixes
             [/I listen to you\!/i, "I'll listen to you!"],
             [/Taking one after training is beautiful/i, "Taking one after training makes your body feel great"],
-            [/It is very suitable to eat after excessive use of abilities or mental impact/i, "It is best to eat it after excessive use of mental abilities"]
+            [/It is very suitable to eat after excessive use of abilities or mental impact/i, "It is best to eat it after excessive use of mental abilities"],
             //Changes the Character nickname for Arthur's Animal Form to Coaly
-            [/Da, Dahei/i, "Co, Coaly"],
+            [/Da\, Dahei/i, "Co, Coaly"],
             [/( Dahei | Da Hei | Blacky )/i, " Coaly "],
             [/(Dahei |Da Hei |Blacky )/i, "Coaly "],
             [/( Dahei| Da Hei| Blacky)/i, " Coaly"],
@@ -110,7 +108,7 @@ DB. support functions
             [/(Dahong |Da Hong )/i, "Ruby "],
             [/( Dahong| Da Hong)/i, " Ruby"],
             [/(Dahong|Da Hong)/i, "Ruby"],
-            //Changes the Character nickname for Leon's Animal Form to Mauvey
+            //Changes the Character nickname for Leon's Animal Form to Mauvey (Someone please confirm with me what DaZi's name is)
             [/( Dazi | Da Zi )/i, " Mauvey "],
             [/(Dazi |Da Zi )/i, "Mauvey "],
             [/( Dazi| Da Zi)/i, " Mauvey"],
@@ -160,12 +158,6 @@ DB. support functions
             [/(Gungun|Gun Gun)/i, "Rolly"],
             [/ \. /i, ". "], //Apparently I need to fix punctuation now.
             [/ \, /i, ", "], //Just in case since I needed to fix punctuation.
-            // basic examples:
-            //[/commit/i, "dog"],
-            //[/branch/i, "turtle"],
-            //[/file/i, "birdie"],
-            //[/\w/g, "a"], //replaces all characters with "a".
-            //[/(.|\W)+/i, "text"], //replaces all text instances with "text".
         ];
 
         // ==== AC. special rules =================================================================|
