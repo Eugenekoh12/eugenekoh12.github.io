@@ -33,13 +33,6 @@
 Original Replace Text last update: 20/09/2021
 Customized Replace Text last update: 06/03/2023
 
-== todo ==
-1. comment on iframes.
-1. script execution flow with FHD.
-1. separate counter for each execution instance.
-
-10. case: 2 text nodes have the same parent block.
-
 == issues ==
 - certain text nodes aren't accessed with markCheckedElement enabled. (multiple text nodes)
 
@@ -52,15 +45,6 @@ Customized Replace Text last update: 06/03/2023
 1c. after checking a text node against all rules, applies a 'checked' class to the element containing the text node.
 
 2a. dlt1 and dlt2 completely replaces text by default, option to change.
-
-== notification notes ==
-1e. elements checked by title attributes are processed in a separate block.
-5a. notifications only work for those sites enabled with filters.
-
-== version history ==
-== 1.05.03 ==
-- custom execution time
-- some clean up.
 
 == code markers ==
 AA. initial setup
