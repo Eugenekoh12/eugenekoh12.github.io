@@ -105,17 +105,22 @@ DB. support functions
             [/(Dahui |Da Hui |Grey )/i, "Slatey "],
             [/( Dahui| Da Hui| Grey)/i, " Slatey"],
             [/(Dahui|Da Hui|Grey)/i, "Slatey"],
-            //Changes the Character nickname for 's Animal Form to Mauvey
+            //Changes the Character nickname for Xianluo's Animal Form to Ruby
+            [/( Dahong | Da Hong )/i, " Ruby "],
+            [/(Dahong |Da Hong )/i, "Ruby "],
+            [/( Dahong| Da Hong)/i, " Ruby"],
+            [/(Dahong|Da Hong)/i, "Ruby"],
+            //Changes the Character nickname for Leon's Animal Form to Mauvey
             [/( Dazi | Da Zi )/i, " Mauvey "],
             [/(Dazi |Da Zi )/i, "Mauvey "],
             [/( Dazi| Da Zi)/i, " Mauvey"],
             [/(Dazi|Da Zi)/i, "Mauvey"],
-            //Changes the Character nickname for 's Animal Form to Skye
+            //Changes the Character nickname for Louis's Animal Form to Skye
             [/( Dalan | Da Lan )/i, " Skye "],
             [/(Dalan |Da Lan )/i, "Skye "],
             [/( Dalan| Da Lan)/i, " Skye"],
             [/(Dalan|Da Lan)/i, "Skye"],
-            //Changes the Character nickname for 's Animal Form to Peachy
+            //Changes the Character nickname for Ritian's Animal Form to Peachy
             [/( Dacheng | Da Cheng )/i, " Peachy "],
             [/(Dacheng |Da Cheng )/i, "Peachy "],
             [/( Dacheng| Da Cheng)/i, " Peachy"],
@@ -125,34 +130,29 @@ DB. support functions
             [/(Dahuang |Da Huang )/i, "Goldy "],
             [/( Dahuang| Da Huang)/i, " Goldy"],
             [/(Dahuang|Da Huang)/i, "Goldy"],
-            //Changes the Character nickname for 's Animal Form to Sagey
+            //Changes the Character nickname for Kerry's Animal Form to Sagey
             [/( Dalu | Da Lu )/i, " Sagey "],
             [/(Dalu |Da Lu )/i, "Sagey "],
             [/( Dalu| Da Lu)/i, " Sagey"],
             [/(Dalu|Da Lu)/i, "Sagey"],
-            //Changes the Character nickname for 's Animal Form to Leafy
+            //Changes the Character nickname for Ellie's Animal Form to Leafy
             [/( Xiaolu | Xiao Lu )/i, " Leafy "],
             [/(Xiaolu |Xiao Lu )/i, "Leafy "],
             [/( Xiaolu| Xiao Lu)/i, " Leafy"],
             [/(Xiaolu|Xiao Lu)/i, "Leafy"],
-            //Changes the Character nickname for 's Animal Form to Ruby
-            [/( Dahong | Da Hong )/i, " Ruby "],
-            [/(Dahong |Da Hong )/i, "Ruby "],
-            [/( Dahong| Da Hong)/i, " Ruby"],
-            [/(Dahong|Da Hong)/i, "Ruby"],
-            //Changes the Character nickname for 's Animal Form to Ceruley
+            //Changes the Character nickname for Adeline's Animal Form to Ceruley
             [/( Daqing | Da Qing )/i, " Ceruley "],
             [/(Daqing |Da Qing )/i, "Ceruley "],
             [/( Daqing| Da Qing)/i, " Ceruley"],
             [/(Daqing|Da Qing)/i, "Ceruley"],
-            //Changes the Character's original nickname for Han's Animal Form to Dot. Please advise a better short form since I don't know which "Dian" is used.
-            [/ Dian /i, " Dot "],
-            [/ Dian/i, " Dot"],
             //Changes the Character nickname for Han's Animal Form to Dotty
             [/( Diandian | Dian Dian )/i, " Dotty "],
             [/(Diandian |Dian Dian )/i, "Dotty "],
             [/( Diandian| Dian Dian)/i, " Dotty"],
             [/(Diandian|Dian Dian)/i, "Dotty"],
+            //Changes the Character's original nickname for Han's Animal Form to Dot. Please advise a better short form since I don't know which "Dian" is used.
+            [/ Dian /i, " Dot "],
+            [/ Dian/i, " Dot"],
             //Changes the Character nickname for the baby panda's Animal Form to Rolly
             [/( Gungun | Gun Gun )/i, " Rolly "],
             [/(Gungun |Gun Gun )/i, "Rolly "],
