@@ -159,6 +159,7 @@ DB. support functions
             [/(Gungun|Gun Gun)/i, "Rolly"],
             [/ \. /i, ". "], //Apparently I need to fix punctuation now.
             [/ \, /i, ", "], //Just in case since I needed to fix punctuation.
+            [/\? \!/i, "?!"], //Why is there a random space in between?
         ];
 
         // ==== AC. special rules =================================================================|
