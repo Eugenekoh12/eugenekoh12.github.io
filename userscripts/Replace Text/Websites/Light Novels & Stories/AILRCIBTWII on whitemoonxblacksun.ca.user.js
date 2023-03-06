@@ -29,36 +29,8 @@
     'use strict';
 
     if(0){/*
-last update: 7/04/2020
-
-== todo ==
-1. comment on iframes.
-1. script execution flow with FHD.
-1. separate counter for each execution instance.
-
-10. case: 2 text nodes have the same parent block.
-
-== issues ==
-- certain text nodes aren't accessed with markCheckedElement enabled. (multiple text nodes)
-
-== how it works ==
-1a. calls processPage() once for each major run.
-1b. creates list of specific text nodes then checks each against all rules.
-1ba. with special replace enabled, if delete or full replace match, check stops after the first special match.
-- this excludes elements previously checked.
-- changes text based on matches.
-1c. after checking a text node against all rules, applies a 'checked' class to the element containing the text node.
-
-2a. dlt1 and dlt2 completely replaces text by default, option to change.
-
-== notification notes ==
-1e. elements checked by title attributes are processed in a separate block.
-5a. notifications only work for those sites enabled with filters.
-
-== version history ==
-== 1.05.03 ==
-- custom execution time
-- some clean up.
+Original Replace Text last update: 20/09/2021
+Customized Replace Text last update: 06/03/2023
 
 == code markers ==
 AA. initial setup
