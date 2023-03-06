@@ -159,7 +159,7 @@ DB. support functions
             [/The little panda proudly raised his belly/i, "The red panda proudly raised his belly"],
             [/Little Panda\: “…/i, "Red Panda: “…"],
             [/Little Panda Huo/i, "Red Panda Huo"],
-            [/the little panda with a mouth/i "the red panda with a mouth"],
+            [/the little panda with a mouth/i, "the red panda with a mouth"],
             [/the little panda\’s tail slapped the floor/i, "the red panda’s tail slapped the floor"],
             [/his little panda came first/i, "his red panda came first"],
             [/a little panda because of the size of/i, "a red panda because of the size of"],
