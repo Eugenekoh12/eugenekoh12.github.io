@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Replace Text [with personal exclusions]
 // @namespace    https://github.com/Eugenekoh12/Personal
-// @version      1.0.2
+// @version      1.0.3
 // @description  Modified from https://github.com/erickRecai/Replace-Text v1.05.03 by guyRicky. Replaces text with other text.
 // @author       Eugenekoh12
 
@@ -15,8 +15,8 @@
 // @exclude      *://drive.google.com/*
 // @exclude      *://mail.google.com/*
 
-// @updateURL    https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text%20(with%20personal%20exclusions).meta.js
-// @downloadURL  https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text%20(with%20personal%20exclusions).user.js
+// @updateURL    https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text/Main%20with%20Personal%20Exclusions.meta.js
+// @downloadURL  https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text/Main%20with%20Personal%20Exclusions.user.js
 
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
 // @require      https://gist.githubusercontent.com/BrockA/2625891/raw/9c97aa67ff9c5d56be34a55ad6c18a314e5eb548/waitForKeyElements.js
@@ -31,7 +31,7 @@
 
     if(0){/*
 Original Replace Text last update: 20/09/2021
-Customized Replace Text last update: 05/03/2023
+Customized Replace Text last update: 06/03/2023
 
 == todo ==
 1. comment on iframes.
@@ -115,10 +115,10 @@ DB. support functions
         let replaceRules = [
             //[//i, ""], // rule template
     
-            // basic examples:
             [/個人/i, "Personal Use"],
             [/非商用/i, "Non-Commerical Use"],
             [/商用/i, "Commercial Use"],
+            // basic examples:
             //[/commit/i, "dog"],
             //[/branch/i, "turtle"],
             //[/file/i, "birdie"],
