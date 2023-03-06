@@ -88,71 +88,76 @@ DB. support functions
             [/Taking one after training is beautiful/i, "Taking one after training makes your body feel great"],
             [/It is very suitable to eat after excessive use of abilities or mental impact/i, "It is best to eat it after excessive use of mental abilities"],
             [/the little panda asked his bad friend/i, "the little red panda asked his bad friend"],
-            //Changes the Character nickname for Arthur's Animal Form to Coaly
+            [/I am a poor tiger who was betrayed by my partner/i, "I am a poor liger who was betrayed by my partner"],
+            [/Kitty Ball has taken the initiative to resonate with your energy/i, "The Round Kittens has taken the initiative to resonate with your energy"],
+            //Text Changes relating to Arthur, the black cat.
             [/Da\, Dahei/i, "Co, Coaly"],
             [/( Dahei | Da Hei | Blacky )/i, " Coaly "],
             [/(Dahei |Da Hei |Blacky )/i, "Coaly "],
             [/( Dahei| Da Hei| Blacky)/i, " Coaly"],
             [/(Dahei|Da Hei|Blacky)/i, "Coaly"],
-            //Changes the Character nickname for Herman's Animal Form to Snowy
+            [/Black Ball/i, "Round Coal"],
+            [/(Kittens Ball|Kitten Balls)/i, "Round Kittens"],
+            [/Kitten Ball/i, "Round Kitten"],
+            //Text Changes relating to Herman, the polar bear.
             [/( Dabai | Da Bai )/i, " Snowy "],
             [/(Dabai |Da Bai )/i, "Snowy "],
             [/( Dabai| Da Bai)/i, " Snowy"],
             [/(Dabai|Da Bai)/i, "Snowy"],
-            //Changes the Character nickname for Yan Yi's Animal Form to Slatey
+            //Text Changes relating to Yan Yi, the gray wolf.
             [/( Dahui | Da Hui | Grey )/i, " Slatey "],
             [/(Dahui |Da Hui |Grey )/i, "Slatey "],
             [/( Dahui| Da Hui| Grey)/i, " Slatey"],
             [/(Dahui|Da Hui|Grey)/i, "Slatey"],
-            //Changes the Character nickname for Xianluo's Animal Form to Ruby
+            //Text Changes relating to Xianluo, the red fox.
             [/( Dahong | Da Hong )/i, " Ruby "],
             [/(Dahong |Da Hong )/i, "Ruby "],
             [/( Dahong| Da Hong)/i, " Ruby"],
             [/(Dahong|Da Hong)/i, "Ruby"],
-            //Changes the Character nickname for Leon's Animal Form to Mauvey (Someone please confirm with me what DaZi's name is)
+            //Text Changes relating to Leon (Someone please confirm with me what DaZi's name is), the purple horse.
             [/( Dazi | Da Zi )/i, " Mauvey "],
             [/(Dazi |Da Zi )/i, "Mauvey "],
             [/( Dazi| Da Zi)/i, " Mauvey"],
             [/(Dazi|Da Zi)/i, "Mauvey"],
-            //Changes the Character nickname for Louis's Animal Form to Skye
+            //Text Changes relating to Louis, the blue seal.
             [/( Dalan | Da Lan )/i, " Skye "],
             [/(Dalan |Da Lan )/i, "Skye "],
             [/( Dalan| Da Lan)/i, " Skye"],
             [/(Dalan|Da Lan)/i, "Skye"],
-            //Changes the Character nickname for Ritian's Animal Form to Peachy
+            //Text Changes relating to Ritian, the orange red panda.
             [/( Dacheng | Da Cheng )/i, " Peachy "],
             [/(Dacheng |Da Cheng )/i, "Peachy "],
             [/( Dacheng| Da Cheng)/i, " Peachy"],
             [/(Dacheng|Da Cheng)/i, "Peachy"],
-            //Changes the Character nickname for Leo's Animal Form to Goldy
+            //Text Changes relating to Leo, the yellow monkey.
             [/( Dahuang | Da Huang )/i, " Goldy "],
             [/(Dahuang |Da Huang )/i, "Goldy "],
             [/( Dahuang| Da Huang)/i, " Goldy"],
             [/(Dahuang|Da Huang)/i, "Goldy"],
-            //Changes the Character nickname for Kerry's Animal Form to Sagey
+            //Text Changes relating to Kerry, the male green deer.
             [/( Dalu | Da Lu )/i, " Sagey "],
             [/(Dalu |Da Lu )/i, "Sagey "],
             [/( Dalu| Da Lu)/i, " Sagey"],
             [/(Dalu|Da Lu)/i, "Sagey"],
-            //Changes the Character nickname for Ellie's Animal Form to Leafy
+            //Text Changes relating to Ellie, the female green deer.
             [/( Xiaolu | Xiao Lu )/i, " Leafy "],
             [/(Xiaolu |Xiao Lu )/i, "Leafy "],
             [/( Xiaolu| Xiao Lu)/i, " Leafy"],
             [/(Xiaolu|Xiao Lu)/i, "Leafy"],
-            //Changes the Character nickname for Adeline's Animal Form to Ceruley
+            //Text Changes relating to Adeline, the indigo kangaroo.
             [/( Daqing | Da Qing )/i, " Ceruley "],
             [/(Daqing |Da Qing )/i, "Ceruley "],
             [/( Daqing| Da Qing)/i, " Ceruley"],
             [/(Daqing|Da Qing)/i, "Ceruley"],
-            //Changes the Character nickname for Han's Animal Form to Dotty
+            //Text Changes relating to Hans, the snow leopard.
             [/( Diandian | Dian Dian )/i, " Dotty "],
             [/(Diandian |Dian Dian )/i, "Dotty "],
             [/( Diandian| Dian Dian)/i, " Dotty"],
             [/(Diandian|Dian Dian)/i, "Dotty"],
-            //Changes the Character's original nickname for Han's Animal Form to Dot. Please advise a better short form since I don't know which "Dian" is used.
+            //Hans' original nickname is changed to Dot. Please advise a better short form since I don't know which "Dian" is used.
             [/ Dian /i, " Dot "],
             [/ Dian/i, " Dot"],
-            //Changes the Character nickname for the baby panda's Animal Form to Rolly
+            //Text Changes relating to Gungun, the giant baby panda. Please assist to check if Gungun is actually his name or nickname and if it's listed anywhere his real name if so.
             [/( Gungun | Gun Gun )/i, " Rolly "],
             [/(Gungun |Gun Gun )/i, "Rolly "],
             [/( Gungun| Gun Gun)/i, " Rolly"],
