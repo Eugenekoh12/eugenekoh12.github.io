@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Replace Text - whitemoonxblacksun.ca - AILRCIBTWII
 // @namespace    https://github.com/Eugenekoh12/Personal
-// @version      1.0.3.1
+// @version      1.0.3.2
 // @description  Modified from https://github.com/erickRecai/Replace-Text v1.05.03 by guyRicky. Replaces text with other text for AILRCIBTWII on whitemoonxblacksun.ca.
 // @author       Eugenekoh12
 
@@ -228,6 +228,8 @@ DB. support functions
             [/Gun Gun /i, "Rolly "],
             [/ Gun Gun/i, " Rolly"],
             [/Gun Gun/i, "Rolly"],
+            [/ . /i, ". "], //Apparently I need to fix punctuation now.
+            [/ , /i, ", "], //Just in case since I needed to fix punctuation.
             // basic examples:
             //[/commit/i, "dog"],
             //[/branch/i, "turtle"],
