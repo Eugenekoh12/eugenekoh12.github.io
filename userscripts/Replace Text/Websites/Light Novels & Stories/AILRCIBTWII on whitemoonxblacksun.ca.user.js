@@ -85,57 +85,75 @@ DB. support functions
         let replaceRules = [
             //[//i, ""], // rule template
 
+            //Gramatical fixes
+            [/I listen to you\!/i, "I'll listen to you!"],
+            [/Taking one after training is beautiful/i, "Taking one after training makes your body feel great"],
+            [/It is very suitable to eat after excessive use of abilities or mental impact/i, "It is best to eat it after excessive use of mental abilities"]
+            //Changes the Character nickname for Arthur's Animal Form to Coaly
             [/Da, Dahei/i, "Co, Coaly"],
             [/( Dahei | Da Hei | Blacky )/i, " Coaly "],
             [/(Dahei |Da Hei |Blacky )/i, "Coaly "],
             [/( Dahei| Da Hei| Blacky)/i, " Coaly"],
             [/(Dahei|Da Hei|Blacky)/i, "Coaly"],
+            //Changes the Character nickname for Herman's Animal Form to Snowy
             [/( Dabai | Da Bai )/i, " Snowy "],
             [/(Dabai |Da Bai )/i, "Snowy "],
             [/( Dabai| Da Bai)/i, " Snowy"],
             [/(Dabai|Da Bai)/i, "Snowy"],
+            //Changes the Character nickname for Yan Yi's Animal Form to Slatey
             [/( Dahui | Da Hui | Grey )/i, " Slatey "],
             [/(Dahui |Da Hui |Grey )/i, "Slatey "],
             [/( Dahui| Da Hui| Grey)/i, " Slatey"],
             [/(Dahui|Da Hui|Grey)/i, "Slatey"],
+            //Changes the Character nickname for 's Animal Form to Mauvey
             [/( Dazi | Da Zi )/i, " Mauvey "],
             [/(Dazi |Da Zi )/i, "Mauvey "],
             [/( Dazi| Da Zi)/i, " Mauvey"],
             [/(Dazi|Da Zi)/i, "Mauvey"],
+            //Changes the Character nickname for 's Animal Form to Skye
             [/( Dalan | Da Lan )/i, " Skye "],
             [/(Dalan |Da Lan )/i, "Skye "],
             [/( Dalan| Da Lan)/i, " Skye"],
             [/(Dalan|Da Lan)/i, "Skye"],
+            //Changes the Character nickname for 's Animal Form to Peachy
             [/( Dacheng | Da Cheng )/i, " Peachy "],
             [/(Dacheng |Da Cheng )/i, "Peachy "],
             [/( Dacheng| Da Cheng)/i, " Peachy"],
             [/(Dacheng|Da Cheng)/i, "Peachy"],
+            //Changes the Character nickname for Leo's Animal Form to Goldy
             [/( Dahuang | Da Huang )/i, " Goldy "],
             [/(Dahuang |Da Huang )/i, "Goldy "],
             [/( Dahuang| Da Huang)/i, " Goldy"],
             [/(Dahuang|Da Huang)/i, "Goldy"],
+            //Changes the Character nickname for 's Animal Form to Sagey
             [/( Dalu | Da Lu )/i, " Sagey "],
             [/(Dalu |Da Lu )/i, "Sagey "],
             [/( Dalu| Da Lu)/i, " Sagey"],
             [/(Dalu|Da Lu)/i, "Sagey"],
+            //Changes the Character nickname for 's Animal Form to Leafy
             [/( Xiaolu | Xiao Lu )/i, " Leafy "],
             [/(Xiaolu |Xiao Lu )/i, "Leafy "],
             [/( Xiaolu| Xiao Lu)/i, " Leafy"],
             [/(Xiaolu|Xiao Lu)/i, "Leafy"],
+            //Changes the Character nickname for 's Animal Form to Ruby
             [/( Dahong | Da Hong )/i, " Ruby "],
             [/(Dahong |Da Hong )/i, "Ruby "],
             [/( Dahong| Da Hong)/i, " Ruby"],
             [/(Dahong|Da Hong)/i, "Ruby"],
+            //Changes the Character nickname for 's Animal Form to Ceruley
             [/( Daqing | Da Qing )/i, " Ceruley "],
             [/(Daqing |Da Qing )/i, "Ceruley "],
             [/( Daqing| Da Qing)/i, " Ceruley"],
             [/(Daqing|Da Qing)/i, "Ceruley"],
+            //Changes the Character's original nickname for Han's Animal Form to Dot. Please advise a better short form since I don't know which "Dian" is used.
             [/ Dian /i, " Dot "],
             [/ Dian/i, " Dot"],
+            //Changes the Character nickname for Han's Animal Form to Dotty
             [/( Diandian | Dian Dian )/i, " Dotty "],
             [/(Diandian |Dian Dian )/i, "Dotty "],
             [/( Diandian| Dian Dian)/i, " Dotty"],
             [/(Diandian|Dian Dian)/i, "Dotty"],
+            //Changes the Character nickname for the baby panda's Animal Form to Rolly
             [/( Gungun | Gun Gun )/i, " Rolly "],
             [/(Gungun |Gun Gun )/i, "Rolly "],
             [/( Gungun| Gun Gun)/i, " Rolly"],
