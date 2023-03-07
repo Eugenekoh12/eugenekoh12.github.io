@@ -83,10 +83,12 @@ DB. support functions
         // ==== AB. replace rules =================================================================|
 
         let replaceRules = [
-            //Sentencing Fixes
+            //Basic Sentencing Fixes, and text changes relating to everyone else.
+            //Text Changes relating to the MC, Mingyou.
             [/I listen to you\!/i, "I'll listen to you!"],
             [/Taking one after training is beautiful/i, "Taking one after training makes your body feel better"],
             [/It is very suitable to eat after excessive use of abilities or mental impact/i, "It is best to eat it after excessive use of abilities or mental powers"],
+            [/In addition to learning about spirit beasts and music\, his brain was not as big as a walnut in other aspects/i, "With the exception of learning about spirit beasts and music, in other aspects his brain was no bigger than a walnut"],
             //Text Changes relating to Arthur, the black cat.
             [/I am a poor tiger who was betrayed by my partner/i, "I am a poor liger who was betrayed by my partner"],
             [/Kitty Ball has taken the initiative to resonate with your energy/i, "The Round Kittens has taken the initiative to resonate with your energy"],
@@ -105,6 +107,7 @@ DB. support functions
             [/( Dabai| Da Bai)/i, " Snowy"],
             [/(Dabai|Da Bai)/i, "Snowy"],
             //Text Changes relating to Yan Yi, the gray wolf.
+            [/The gray wolf twitched his ears and said/i, "The gray wolf's ears twitched from being patted, while Mingyou said"],
             [/( Dahui | Da Hui | Grey )/i, " Slatey "],
             [/(Dahui |Da Hui |Grey )/i, "Slatey "],
             [/( Dahui| Da Hui| Grey)/i, " Slatey"],
