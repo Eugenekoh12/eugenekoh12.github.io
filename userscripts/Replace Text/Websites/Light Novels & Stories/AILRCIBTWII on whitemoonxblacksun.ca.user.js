@@ -84,17 +84,18 @@ DB. support functions
 
         let replaceRules = [
             //Basic Sentencing Fixes, and text changes relating to everyone else.
+            [/to make things more consistent\. I would greatly appreciate everyone\’s input on which it should be\./i, "to make things more consistent. I would greatly appreciate everyone’s input on which it should be.\r\n\r\nUSERSCRIPT NOTE: Ignore this as I've already changed all instance via this script to make sure it's consistent."],
             //Text Changes relating to the MC, Mingyou.
             [/I listen to you\!/i, "I'll listen to you!"],
             [/Taking one after training is beautiful/i, "Taking one after training makes your body feel better"],
             [/It is very suitable to eat after excessive use of abilities or mental impact/i, "It is best to eat it after excessive use of abilities or mental powers"],
             [/In addition to learning about spirit beasts and music\, his brain was not as big as a walnut in other aspects/i, "With the exception of learning about spirit beasts and music, in other aspects his brain was no bigger than a walnut"],
-            [/How could he calculate Dahei\!/i, "How could he be so calculative like Coaly!"],
-            [/“Did Dahui offend and Dabai\?”/i, "“Did Slatey offend Snowy?”"],
+            [/How could he calculate Dahei\!/i, "How could he be so calculative like Dahei!"],
+            [/“Did Dahui offend and Dabai\?”/i, "“Did Dahui offend Dabai?”"],
             //Text Changes relating to Arthur, the black cat.
-            [/He wanted to bite Dabai a few bites when he had the opportunity/i, "He went to bite Dabai a few times when he had the opportunity"],
+            [/He wanted to bite Dabai a few bites/i, "He went to bite Dabai a few times"],
             [/I am a poor tiger who was betrayed by my partner/i, "I am a poor liger who was betrayed by my partner"],
-            [/Kitty Ball has taken the initiative to resonate with your energy/i, "The Round Kittens have taken the initiative to resonate with your energy"],
+            [/Kitty Ball has taken/i, "The Round Kittens have taken"],
             [/Da\, Dahei/i, "Co, Coaly"],
             [/lack tiger/, "lack liger"],
             [/lack Tiger/, "lack Liger"],
