@@ -137,6 +137,7 @@ DB. support functions
             [/(Xiaotian |Xiao Tian )/i, "Floaty "],
             [/(Xiaotian|Xiao Tian)/i, "Floaty"],
             [/Floaty means little city in the sky\./i, "Xiaotian (Floaty) means little city in the sky."],
+            [/Floaty \(Floaty\)/i, "Xiaotian (Floaty)"],
             //Text Changes relating to Xianluo, the red fox.
             [/( Dahong | Da Hong )/i, " Ruby "],
             [/(Dahong |Da Hong )/i, "Ruby "],
