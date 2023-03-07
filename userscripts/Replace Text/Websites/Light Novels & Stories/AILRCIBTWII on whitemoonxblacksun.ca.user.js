@@ -85,8 +85,8 @@ DB. support functions
         let replaceRules = [
             //Sentencing Fixes
             [/I listen to you\!/i, "I'll listen to you!"],
-            [/Taking one after training is beautiful/i, "Taking one after training makes your body feel great"],
-            [/It is very suitable to eat after excessive use of abilities or mental impact/i, "It is best to eat it after excessive use of mental abilities"],
+            [/Taking one after training is beautiful/i, "Taking one after training makes your body feel better"],
+            [/It is very suitable to eat after excessive use of abilities or mental impact/i, "It is best to eat it after excessive use of abilities or mental powers"],
             //Text Changes relating to Arthur, the black cat.
             [/I am a poor tiger who was betrayed by my partner/i, "I am a poor liger who was betrayed by my partner"],
             [/Kitty Ball has taken the initiative to resonate with your energy/i, "The Round Kittens has taken the initiative to resonate with your energy"],
