@@ -84,7 +84,8 @@ DB. support functions
 
         let replaceRules = [
             //Basic Sentencing Fixes, and text changes relating to everyone else.
-            [/to make things more consistent\. I would greatly appreciate everyone\’s input on which it should be\./i, "to make things more consistent. I would greatly appreciate everyone’s input on which it should be.\r\n\r\nUSERSCRIPT NOTE: Ignore this as I've already changed all instance via this script to make sure it's consistent."],
+            [/to make things more consistent\. I would greatly appreciate everyone\’s input on which it should be\./i, "to make things more consistent. I would greatly appreciate everyone’s input on which it should be. USERSCRIPT NOTE: Ignore this as I've already changed all instance via this script to make sure it's consistent."],
+            [/ USERSCRIPT NOTE\: Ignore this as I\'ve already changed all instance via this script to make sure it\'s consistent\. USERSCRIPT NOTE\: Ignore this as I\'ve already changed all instance via this script to make sure it\'s consistent\./i, " USERSCRIPT NOTE: Ignore this as I've already changed all instance via this script to make sure it's consistent."],
             //Text Changes relating to the MC, Mingyou.
             [/I listen to you\!/i, "I'll listen to you!"],
             [/Taking one after training is beautiful/i, "Taking one after training makes your body feel better"],
