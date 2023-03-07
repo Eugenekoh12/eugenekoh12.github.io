@@ -89,11 +89,15 @@ DB. support functions
             [/Taking one after training is beautiful/i, "Taking one after training makes your body feel better"],
             [/It is very suitable to eat after excessive use of abilities or mental impact/i, "It is best to eat it after excessive use of abilities or mental powers"],
             [/In addition to learning about spirit beasts and music\, his brain was not as big as a walnut in other aspects/i, "With the exception of learning about spirit beasts and music, in other aspects his brain was no bigger than a walnut"],
+            [/How could he calculate Dahei\!/i, "How could he be so calculative like Coaly!"],
+            [/“Did Dahui offend and Dabai\?”/i, "“Did Slatey offend Snowy?”"],
             //Text Changes relating to Arthur, the black cat.
+            [/He wanted to bite Dabai a few bites when he had the opportunity/i, "He went to bite Dabai a few times when he had the opportunity"],
             [/I am a poor tiger who was betrayed by my partner/i, "I am a poor liger who was betrayed by my partner"],
-            [/Kitty Ball has taken the initiative to resonate with your energy/i, "The Round Kittens has taken the initiative to resonate with your energy"],
+            [/Kitty Ball has taken the initiative to resonate with your energy/i, "The Round Kittens have taken the initiative to resonate with your energy"],
             [/Da\, Dahei/i, "Co, Coaly"],
-            [/black tiger/i, "black liger"],
+            [/lack tiger/, "lack liger"],
+            [/lack Tiger/, "lack Liger"],
             [/( Dahei | Da Hei | Blacky )/i, " Coaly "],
             [/(Dahei |Da Hei |Blacky )/i, "Coaly "],
             [/( Dahei| Da Hei| Blacky)/i, " Coaly"],
@@ -284,7 +288,7 @@ DB. support functions
         // ==== checked in processPage() ====
         // managable with optional Script Options userscript.
         let logRuntimes = 1; // default 0; set to 1 to log function runtimes to the console.
-        let markCheckedElements = 1; // default 1; set to 0 if certain sites start appearing weirdly.
+        let markCheckedElements = 0; // default 1; set to 0 if certain sites start appearing weirdly.
 
         let enableSpecialReplace = 1;
         let fullDelete = 0; // default 1; if 1, text is completely replaced.
