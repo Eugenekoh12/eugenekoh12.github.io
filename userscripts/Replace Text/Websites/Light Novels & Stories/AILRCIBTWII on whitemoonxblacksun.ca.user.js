@@ -128,11 +128,11 @@ DB. support functions
             //Text Changes relating to Yan Yi, the gray wolf.
             [/The gray wolf twitched his ears and said/i, "The gray wolf's ears twitched from being patted, while Mingyou said"],
             [/grey wolf/i, "gray wolf"],
+            [/grey wold/i, "gray wolf"],
             [/( Dahui | Da Hui | Grey )/i, " Slatey "],
             [/(Dahui |Da Hui |Grey )/i, "Slatey "],
             [/( Dahui| Da Hui| Grey)/i, " Slatey"],
             [/(Dahui|Da Hui|Grey)/i, "Slatey"],
-            [/Slatey wold/i, "gray wolf"],
             //Text Changes relating to Xiaotian, the AI.
             [/( Xiaotian | Xiao Tian )/i, " Floaty "],
             [/( Xiaotian| Xiao Tian)/i, " Floaty"],
