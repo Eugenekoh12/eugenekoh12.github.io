@@ -108,6 +108,7 @@ DB. support functions
             [/I am a poor tiger who was betrayed by my partner/i, "I am a poor liger who was betrayed by my partner"],
             [/Kitty Ball has taken/i, "The Round Kittens have taken"],
             [/Some of them will be delicious and delicious in the future/i, "Some of them will become delicious food in the future"], //what does this even mean... GUESTIMATION ON WHAT IT MEANS.
+            [/Before you soaked sauerkraut and joked about pickled cabbage/i, "Didn't you say something about soaked sauerkraut and pickled cabbage"],
             [/Da\, Dahei/i, "Co, Coaly"],
             [/Arthurhu/i, "Arthur"],
             [/lack tiger/, "lack liger"],
@@ -139,7 +140,7 @@ DB. support functions
             //Text Changes relating to Kerry, the male green deer.
             [/(Dalu|Da Lu)/i, "Sagey"],
             //Text Changes relating to Ellie, the female green deer.
-            [/Cuihua/i, "Jade"],
+            [/ Cuihua/i, " Jade (Cuihua)"],
             [/(Xiaolu|Xiao Lu)/i, "Leafy"],
             //Text Changes relating to Adeline, the indigo kangaroo.
             [/(Daqing|Da Qing)/i, "Ceruley"],
