@@ -249,7 +249,7 @@ DB. support functions
             //Text Changes relating to Gungun, the giant baby panda. Please assist to check if Gungun is actually his name or nickname and if it's listed anywhere his real name if so.
             [/(Gungun|Gun Gun)/i, "Rolly"],
             //Miscellaneous (including punctuations) cause apparently I need to fix punctuation now.
-            [/ anf /i " and "],
+            [/ anf /i, " and "],
             [/ \. /i, ". "],
             [/ \, /i, ", "],
             [/\? \!/i, "?!"],
