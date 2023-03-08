@@ -140,8 +140,12 @@ DB. support functions
             //Text Changes relating to Kerry, the male green deer.
             [/(Dalu|Da Lu)/i, "Sagey"],
             //Text Changes relating to Ellie, the female green deer.
-            [/ Cuihua/i, " Jade (Cuihua)"],
+            [/Let’s name the other one Cuihua\./i "Let’s name the other one Jade (Cuihua)."],
+            [/Why named Cuihua\?/i, "Why Jade (Cuihua)?"],
+            [/Cuihua/i, "Jade"],
             [/(Xiaolu|Xiao Lu)/i, "Leafy"],
+            [/Let’s name the other one Jade\./i "Let’s name the other one Jade (Cuihua)."],
+            [/Why named Jade\?/i, "Why Jade (Cuihua)?"],
             //Text Changes relating to Adeline, the indigo kangaroo.
             [/(Daqing|Da Qing)/i, "Ceruley"],
             //Text Changes relating to Ritian, the orange coloured red panda.
@@ -244,9 +248,11 @@ DB. support functions
             [/ Dian/i, " Dot"],
             //Text Changes relating to Gungun, the giant baby panda. Please assist to check if Gungun is actually his name or nickname and if it's listed anywhere his real name if so.
             [/(Gungun|Gun Gun)/i, "Rolly"],
-            [/ \. /i, ". "], //Apparently I need to fix punctuation now.
-            [/ \, /i, ", "], //Just in case since I needed to fix punctuation.
-            [/\? \!/i, "?!"], //Why is there a random space in between?
+            //Miscellaneous (including punctuations) cause apparently I need to fix punctuation now.
+            [/ anf /i " and "],
+            [/ \. /i, ". "],
+            [/ \, /i, ", "],
+            [/\? \!/i, "?!"],
         ];
 
         // ==== AC. special rules =================================================================|
