@@ -140,7 +140,7 @@ DB. support functions
             //Text Changes relating to Kerry, the male green deer.
             [/(Dalu|Da Lu)/i, "Sagey"],
             //Text Changes relating to Ellie, the female green deer.
-            [/Why named Cuihua\?/i, "Why Cuihua?"],
+            [/” Why named Cuihua\? “/i, "“Why Cuihua?”"],
             [/Cuihua/i, "Jade"],
             [/(Xiaolu|Xiao Lu)/i, "Leafy"],
             [/Let\’s name the other one Jade\./i, "Let’s name the other one Jade (Cuihua)."],
