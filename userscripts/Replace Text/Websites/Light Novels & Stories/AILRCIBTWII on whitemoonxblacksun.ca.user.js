@@ -146,6 +146,8 @@ DB. support functions
             [/(Xiaolu|Xiao Lu)/i, "Leafy"],
             [/Let\’s name the other one Jade\./i, "Let’s name the other one Jade (Cuihua)."],
             [/Why named Jade\?/i, "Why Jade (Cuihua)?"],
+            [/Let\’s name the other one Jade \(Jade\)\./i, "Let’s name the other one Jade (Cuihua)."],
+            [/Why named Jade \(Jade\)\?/i, "Why Jade (Cuihua)?"],
             //Text Changes relating to Adeline, the indigo kangaroo.
             [/(Daqing|Da Qing)/i, "Ceruley"],
             //Text Changes relating to Ritian, the orange coloured red panda.
