@@ -139,6 +139,7 @@ DB. support functions
             //Text Changes relating to Kerry, the male green deer.
             [/(Dalu|Da Lu)/i, "Sagey"],
             //Text Changes relating to Ellie, the female green deer.
+            [/Cuihua/i, "Jade"],
             [/(Xiaolu|Xiao Lu)/i, "Leafy"],
             //Text Changes relating to Adeline, the indigo kangaroo.
             [/(Daqing|Da Qing)/i, "Ceruley"],
