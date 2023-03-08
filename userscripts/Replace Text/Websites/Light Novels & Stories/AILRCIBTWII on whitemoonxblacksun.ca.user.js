@@ -140,14 +140,13 @@ DB. support functions
             //Text Changes relating to Kerry, the male green deer.
             [/(Dalu|Da Lu)/i, "Sagey"],
             //Text Changes relating to Ellie, the female green deer.
-            [/Let\’s name the other one Cuihua\./i, "Let’s name the other one Jade (Cuihua)."],
-            [/Why named Cuihua\?/i, "Why Jade (Cuihua)?"],
+            [/Why named Cuihua\?/i, "Why Cuihua?"],
             [/Cuihua/i, "Jade"],
             [/(Xiaolu|Xiao Lu)/i, "Leafy"],
             [/Let\’s name the other one Jade\./i, "Let’s name the other one Jade (Cuihua)."],
-            [/Why named Jade\?/i, "Why Jade (Cuihua)?"],
+            [/Why Jade\?/i, "Why Jade (Cuihua)?"],
             [/Let\’s name the other one Jade \(Jade\)\./i, "Let’s name the other one Jade (Cuihua)."],
-            [/Why named Jade \(Jade\)\?/i, "Why Jade (Cuihua)?"],
+            [/Why Jade \(Jade\)\?/i, "Why Jade (Cuihua)?"],
             //Text Changes relating to Adeline, the indigo kangaroo.
             [/(Daqing|Da Qing)/i, "Ceruley"],
             //Text Changes relating to Ritian, the orange coloured red panda.
