@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Replace Text - whitemoonxblacksun.ca - AILRCIBTWII
 // @namespace    https://github.com/Eugenekoh12/Personal
-// @version      1.0.3.7
+// @version      1.0.3.8
 // @description  Modified from https://github.com/erickRecai/Replace-Text v1.05.03 by guyRicky. Replaces text with other text for AILRCIBTWII on whitemoonxblacksun.ca.
 // @author       Eugenekoh12
 
@@ -30,7 +30,7 @@
 
     if(0){/*
 Original Replace Text last update: 20/09/2021
-Customized Replace Text last update: 06/03/2023
+Customized Replace Text last update: 08/03/2023
 
 == code markers ==
 AA. initial setup
@@ -101,6 +101,7 @@ DB. support functions
             [/Mingyou was trained again\, and was also punished to kneel and sit in the corner\, facing the wall thinking about it/i, "Mingyou was taught again, and also punished to kneel and sit in a corner, facing the wall to think about his actions"],
             [/so Mingyou was trained again/i, "so Mingyou was taught once again"],
             [/All boys had a desire for driving cool machines/i, "All boys have a desire to drive cool machines"],
+            [/Mingyou picked up the suona and raised her cheeks/i, "Mingyou picked up the suona and raised his cheeks"],
             //Text Changes relating to Arthur, the black cat.
             [/Are you going to say, confess your mistakes well and never repent/i, "Are you just going to confess your mistakes well and not repent"],
             [/He wanted to bite Dabai a few bites/i, "He went to bite Dabai a few times"],
@@ -110,9 +111,6 @@ DB. support functions
             [/Arthurhu/i, "Arthur"],
             [/lack tiger/, "lack liger"],
             [/lack Tiger/, "lack Liger"],
-            [/( Dahei | Da Hei | Blacky )/i, " Coaly "],
-            [/(Dahei |Da Hei |Blacky )/i, "Coaly "],
-            [/( Dahei| Da Hei| Blacky)/i, " Coaly"],
             [/(Dahei|Da Hei|Blacky)/i, "Coaly"],
             [/Black Ball/i, "Round Coal"],
             [/(Kittens Ball|Kitten Balls)/i, "Round Kittens"],
@@ -121,54 +119,27 @@ DB. support functions
             [/how could they keep Mingyou busy for so long alone/i, "why would they keep Mingyou busy working alone for so long"],
             [/Little Baixiong/i, "little white bear"],
             [/Little bear/i, "little white bear"],
-            [/( Dabai | Da Bai )/i, " Snowy "],
-            [/(Dabai |Da Bai )/i, "Snowy "],
-            [/( Dabai| Da Bai)/i, " Snowy"],
             [/(Dabai|Da Bai)/i, "Snowy"],
             //Text Changes relating to Yan Yi, the gray wolf.
             [/The gray wolf twitched his ears and said/i, "The gray wolf's ears twitched from being patted, while Mingyou said"],
             [/grey wolf/i, "gray wolf"],
             [/grey wold/i, "gray wolf"],
-            [/( Dahui | Da Hui | Grey )/i, " Slatey "],
-            [/(Dahui |Da Hui |Grey )/i, "Slatey "],
-            [/( Dahui| Da Hui| Grey)/i, " Slatey"],
             [/(Dahui|Da Hui|Grey)/i, "Slatey"],
             //Text Changes relating to Xiaotian, the AI.
-            [/( Xiaotian | Xiao Tian )/i, " Floaty "],
-            [/( Xiaotian| Xiao Tian)/i, " Floaty"],
-            [/(Xiaotian |Xiao Tian )/i, "Floaty "],
             [/(Xiaotian|Xiao Tian)/i, "Floaty"],
             [/Floaty means little city in the sky\./i, "Xiaotian (Floaty) means little city in the sky."],
             [/Floaty \(Floaty\)/i, "Xiaotian (Floaty)"],
             //Text Changes relating to Xianluo, the red fox.
-            [/( Dahong | Da Hong )/i, " Ruby "],
-            [/(Dahong |Da Hong )/i, "Ruby "],
-            [/( Dahong| Da Hong)/i, " Ruby"],
             [/(Dahong|Da Hong)/i, "Ruby"],
             //Text Changes relating to Louis, the blue seal.
-            [/( Dalan | Da Lan )/i, " Skye "],
-            [/(Dalan |Da Lan )/i, "Skye "],
-            [/( Dalan| Da Lan)/i, " Skye"],
             [/(Dalan|Da Lan)/i, "Skye"],
             //Text Changes relating to Leo, the yellow monkey.
-            [/( Dahuang | Da Huang )/i, " Goldy "],
-            [/(Dahuang |Da Huang )/i, "Goldy "],
-            [/( Dahuang| Da Huang)/i, " Goldy"],
             [/(Dahuang|Da Huang)/i, "Goldy"],
             //Text Changes relating to Kerry, the male green deer.
-            [/( Dalu | Da Lu )/i, " Sagey "],
-            [/(Dalu |Da Lu )/i, "Sagey "],
-            [/( Dalu| Da Lu)/i, " Sagey"],
             [/(Dalu|Da Lu)/i, "Sagey"],
             //Text Changes relating to Ellie, the female green deer.
-            [/( Xiaolu | Xiao Lu )/i, " Leafy "],
-            [/(Xiaolu |Xiao Lu )/i, "Leafy "],
-            [/( Xiaolu| Xiao Lu)/i, " Leafy"],
             [/(Xiaolu|Xiao Lu)/i, "Leafy"],
             //Text Changes relating to Adeline, the indigo kangaroo.
-            [/( Daqing | Da Qing )/i, " Ceruley "],
-            [/(Daqing |Da Qing )/i, "Ceruley "],
-            [/( Daqing| Da Qing)/i, " Ceruley"],
             [/(Daqing|Da Qing)/i, "Ceruley"],
             //Text Changes relating to Ritian, the orange coloured red panda.
             [/workaholic little panda/i, "workaholic red panda"],
@@ -260,27 +231,15 @@ DB. support functions
             [/The little panda opened his round eyes\, and the scholar’s expression turned into a gossiping expression/i, "The red panda opened his round eyes, and the scholar’s expression turned into a gossiping expression"],
             [/it was impossible for him to really eat this little panda/i, "it was impossible for him to really eat this red panda"],
             [/the little panda and the purple horse couldn/i, "the red panda and the purple horse couldn"],
-            [/( Dacheng | Da Cheng )/i, " Peachy "],
-            [/(Dacheng |Da Cheng )/i, "Peachy "],
-            [/( Dacheng| Da Cheng)/i, " Peachy"],
             [/(Dacheng|Da Cheng)/i, "Peachy"],
             //Text Changes relating to Leon (Someone please confirm with me what DaZi's name is), the purple horse.
-            [/( Dazi | Da Zi )/i, " Mauvey "],
-            [/(Dazi |Da Zi )/i, "Mauvey "],
-            [/( Dazi| Da Zi)/i, " Mauvey"],
             [/(Dazi|Da Zi)/i, "Mauvey"],
             //Text Changes relating to Hans, the snow leopard.
-            [/( Diandian | Dian Dian )/i, " Dotty "],
-            [/(Diandian |Dian Dian )/i, "Dotty "],
-            [/( Diandian| Dian Dian)/i, " Dotty"],
             [/(Diandian|Dian Dian)/i, "Dotty"],
             //Hans' original nickname is changed to Dot. Please advise a better short form since I don't know which "Dian" is used.
             [/ Dian /i, " Dot "],
             [/ Dian/i, " Dot"],
             //Text Changes relating to Gungun, the giant baby panda. Please assist to check if Gungun is actually his name or nickname and if it's listed anywhere his real name if so.
-            [/( Gungun | Gun Gun )/i, " Rolly "],
-            [/(Gungun |Gun Gun )/i, "Rolly "],
-            [/( Gungun| Gun Gun)/i, " Rolly"],
             [/(Gungun|Gun Gun)/i, "Rolly"],
             [/ \. /i, ". "], //Apparently I need to fix punctuation now.
             [/ \, /i, ", "], //Just in case since I needed to fix punctuation.
