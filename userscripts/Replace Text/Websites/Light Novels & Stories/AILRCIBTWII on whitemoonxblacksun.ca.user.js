@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Replace Text - whitemoonxblacksun.ca - AILRCIBTWII
 // @namespace    https://github.com/Eugenekoh12/Personal
-// @version      1.0.3.8
+// @version      1.0.3.9
 // @description  Modified from https://github.com/erickRecai/Replace-Text v1.05.03 by guyRicky. Replaces text with other text for AILRCIBTWII on whitemoonxblacksun.ca.
 // @author       Eugenekoh12
 
@@ -29,8 +29,8 @@
     'use strict';
 
     if(0){/*
-Original Replace Text last update: 20/09/2021
-Customized Replace Text last update: 08/03/2023
+Replace Text Script last update: 20/09/2021
+Customized Replace Rules last update: 08/03/2023
 
 == code markers ==
 AA. initial setup
@@ -86,6 +86,8 @@ DB. support functions
             //Basic Sentencing Fixes, and text changes relating to everyone else.
             [/to make things more consistent\. I would greatly appreciate everyone\’s input on which it should be\./i, "to make things more consistent. I would greatly appreciate everyone’s input on which it should be. USERSCRIPT NOTE: Ignore this as I've already changed all instance via this script to make sure it's consistent."],
             [/ USERSCRIPT NOTE\: Ignore this as I\'ve already changed all instance via this script to make sure it\'s consistent\. USERSCRIPT NOTE\: Ignore this as I\'ve already changed all instance via this script to make sure it\'s consistent\./i, " USERSCRIPT NOTE: Ignore this as I've already changed all instance via this script to make sure it's consistent."],
+            [/Dad shouldn\’t have Alzheimer\’s anymore/i, "Dad shouldn’t have Alzheimer’s, right"],
+            [/The black cat and the polar bear always felt a little embarrassed with a lollipop in their hands/i, "The black cat and the polar bear felt a little embarrassed holding a lollipop in their hands"],
             //Text Changes relating to the MC, Mingyou.
             [/I listen to you\!/i, "I'll listen to you!"],
             [/Taking one after training is beautiful/i, "Taking one after training makes your body feel better"],
@@ -102,6 +104,7 @@ DB. support functions
             [/so Mingyou was trained again/i, "so Mingyou was taught once again"],
             [/All boys had a desire for driving cool machines/i, "All boys have a desire to drive cool machines"],
             [/Mingyou picked up the suona and raised her cheeks/i, "Mingyou picked up the suona and raised his cheeks"],
+            [/Mingyou asked\, “What is this called\?” The/i, "Mingyou asked, “What is this called?”"],
             //Text Changes relating to Arthur, the black cat.
             [/Are you going to say, confess your mistakes well and never repent/i, "Are you just going to confess your mistakes well and not repent"],
             [/He wanted to bite Dabai a few bites/i, "He went to bite Dabai a few times"],
@@ -109,6 +112,7 @@ DB. support functions
             [/Kitty Ball has taken/i, "The Round Kittens have taken"],
             [/Some of them will be delicious and delicious in the future/i, "Some of them will become delicious food in the future"], //what does this even mean... GUESTIMATION ON WHAT IT MEANS.
             [/Before you soaked sauerkraut and joked about pickled cabbage/i, "Didn't you say something about soaked sauerkraut and pickled cabbage"],
+            [/Tsundere His Highness?/i, "His Highness, the Tsundere?"],
             [/Da\, Dahei/i, "Co, Coaly"],
             [/Arthurhu/i, "Arthur"],
             [/lack tiger/, "lack liger"],
