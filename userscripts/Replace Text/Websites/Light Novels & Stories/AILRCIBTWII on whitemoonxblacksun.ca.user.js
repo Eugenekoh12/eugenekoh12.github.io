@@ -117,13 +117,11 @@ DB. support functions
             [/Kitten Ball/i, "Round Kitten"],
             //Text Changes relating to Herman, the polar bear.
             [/how could they keep Mingyou busy for so long alone/i, "why would they keep Mingyou busy working alone for so long"],
-            [/Little Baixiong/i, "little white bear"],
-            [/Little bear/i, "little white bear"],
+            [/(ittle Baixiong|ittle white bear|ittle bear|ittle Xiong)/i, "ittle polar bear"],
             [/(Dabai|Da Bai)/i, "Snowy"],
             //Text Changes relating to Yan Yi, the gray wolf.
             [/The gray wolf twitched his ears and said/i, "The gray wolf's ears twitched from being patted, while Mingyou said"],
-            [/grey wolf/i, "gray wolf"],
-            [/grey wold/i, "gray wolf"],
+            [/(grey wolf|grey wold)/i, "gray wolf"],
             [/(Dahui|Da Hui|Grey)/i, "Slatey"],
             //Text Changes relating to Xiaotian, the AI.
             [/(Xiaotian|Xiao Tian)/i, "Floaty"],
