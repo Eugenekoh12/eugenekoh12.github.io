@@ -107,7 +107,7 @@ DB. support functions
             [/He wanted to bite Dabai a few bites/i, "He went to bite Dabai a few times"],
             [/I am a poor tiger who was betrayed by my partner/i, "I am a poor liger who was betrayed by my partner"],
             [/Kitty Ball has taken/i, "The Round Kittens have taken"],
-            [/iSome of them will be delicious and delicious in the future/i, "Some of them will become delicious food in the future"], //what does this even mean... GUESTIMATION ON WHAT IT MEANS.
+            [/Some of them will be delicious and delicious in the future/i, "Some of them will become delicious food in the future"], //what does this even mean... GUESTIMATION ON WHAT IT MEANS.
             [/Da\, Dahei/i, "Co, Coaly"],
             [/Arthurhu/i, "Arthur"],
             [/lack tiger/, "lack liger"],
