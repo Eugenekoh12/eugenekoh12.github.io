@@ -118,6 +118,7 @@ DB. support functions
             //Text Changes relating to Herman, the polar bear.
             [/how could they keep Mingyou busy for so long alone/i, "why would they keep Mingyou busy working alone for so long"],
             [/(ittle Baixiong|ittle white bear|ittle bear|ittle Xiong)/i, "ittle polar bear"],
+            [/(Baixiong|white bear)/i, "polar bear"],
             [/(Dabai|Da Bai)/i, "Snowy"],
             //Text Changes relating to Yan Yi, the gray wolf.
             [/The gray wolf twitched his ears and said/i, "The gray wolf's ears twitched from being patted, while Mingyou said"],
