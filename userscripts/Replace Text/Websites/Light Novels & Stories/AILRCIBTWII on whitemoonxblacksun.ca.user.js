@@ -88,6 +88,9 @@ DB. support functions
             [/ USERSCRIPT NOTE\: Ignore this as I\'ve already changed all instance via this script to make sure it\'s consistent\. USERSCRIPT NOTE\: Ignore this as I\'ve already changed all instance via this script to make sure it\'s consistent\./i, " USERSCRIPT NOTE: Ignore this as I've already changed all instance via this script to make sure it's consistent."],
             [/Dad shouldn\’t have Alzheimer\’s anymore/i, "Dad shouldn’t have Alzheimer’s, right"],
             [/The black cat and the polar bear always felt a little embarrassed with a lollipop in their hands/i, "The black cat and the polar bear felt a little embarrassed holding a lollipop in their hands"],
+            [/little wolf and red fox didn’t want to have a tree-climbing/i, "little wolf and red fox wanted to have a tree-climbing"],
+            [/and found that her roommate Cui Li/i, "and found that his roommate Cui Li"],
+            [/said the original. The young master is fake/i, "said the original young master is fake"],
             //Text Changes relating to the MC, Mingyou.
             [/I listen to you\!/i, "I'll listen to you!"],
             [/Taking one after training is beautiful/i, "Taking one after training makes your body feel better"],
@@ -105,6 +108,7 @@ DB. support functions
             [/All boys had a desire for driving cool machines/i, "All boys have a desire to drive cool machines"],
             [/Mingyou picked up the suona and raised her cheeks/i, "Mingyou picked up the suona and raised his cheeks"],
             [/Mingyou asked\, “What is this called\?” The/i, "Mingyou asked, “What is this called?”"],
+            [/\.     Mingyou/i, ". Mingyou"],
             //Text Changes relating to Arthur, the black cat.
             [/Are you going to say, confess your mistakes well and never repent/i, "Are you just going to confess your mistakes well and not repent"],
             [/He wanted to bite Dabai a few bites/i, "He went to bite Dabai a few times"],
