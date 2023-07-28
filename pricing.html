@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draek's Den</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="logo">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="./Main.html"><li>Home</li></a>
+                    <a href="./about.html"><li>About Us</li></a>
+                    <a href="#" id="curMenuPage"><li>Pricing</li></a>
+                    <a href="./faq.html"><li>FAQ</li></a>
+                    <a href="./contact.html"><li>Contact</li></a>
+                </ul>
+            </div>
+        </nav>
+        <img src="./res-main/img/DBreachdLogo_Crop.png" alt="">
+    </header>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("logo");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+    <div class="content_body">
+        <h3>Pricing and Features</h3>
+        <p>
+            As with all products, we do have a few variations you should compare and decide which fits your requirements as well.
+        </p>
+        <label for="psw">Sample Password Box</label><br>
+        <input type="password" id="psw" name="psw" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\w\d\s])[a-zA-Z\d]{8,}$" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+    </div>
+    <br>
+    <div class="content_body">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Features<br><span class="txt_med">Comparison</span>
+                    </th>
+                    <th>
+                        Default<br><span class="txt_med">Without Debreach'd</span>
+                    </th>
+                    <th>
+                        Basic<br><span class="txt_med">With Debreach'd</span>
+                    </th>
+                    <th>
+                        Advanced<br><span class="txt_med">With Debreach'd</span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>
+                        Minimum<br>Password<br>Requirement
+                    </th>
+                    <td>
+                        🔒
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Special<br>Characters<br>Requirement
+                    </th>
+                    <td>
+                        🔒
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Leak<br>Checker:<br>Password<br>
+                    </th>
+                    <td class="red_td">
+                        🔓
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Leak<br>Checker<br>Addon:<br>Email
+                    </th>
+                    <td class="red_td">
+                        🔓
+                    </td>
+                    <td class="yel_td">
+                        🔒<br><span class="txt_med">Purchaseable<br>Seperately</span>
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Password<br>Generator
+                    </th>
+                    <td class="red_td">
+                        🔓
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Customizeable<br>Password<br>Generator
+                    </th>
+                    <td class="red_td">
+                        🔓
+                    </td>
+                    <td class="yel_td">
+                        🔒<br><span class="txt_med">Website Owner Only</span>
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Password<br>History
+                    </th>
+                    <td class="red_td">
+                        🔓
+                    </td>
+                    <td>
+                        🔒<br>
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Password<br>Generator<br>Addon:<br>History<br>Management
+                    </th>
+                    <td class="red_td">
+                        🔓
+                    </td>
+                    <td class="yel_td">
+                        🔒<br><span class="txt_med">Purchaseable<br>Seperately</span>
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Password<br>Phrase<br>Generator
+                    </th>
+                    <td class="red_td">
+                        🔓
+                    </td>
+                    <td class="red_td">
+                        🔒
+                    </td>
+                    <td>
+                        🔒
+                    </td>
+                </tr>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer></footer>
+</body>
+</html>
