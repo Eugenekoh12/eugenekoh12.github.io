@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debreach'd</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?version=3.111.0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="logo">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="./index.html"><li>Home</li></a>
+                    <a href="./about.html"><li>About Us</li></a>
+                    <a href="./pricing.html"><li>Pricing</li></a>
+                    <a href="./faq.html"><li>FAQ</li></a>
+                    <a href="#" id="curMenuPage"><li>Contact</li></a>
+                </ul>
+            </div>
+        </nav>
+        <img id="imgLogo" src="./res-main/img/DBreachdLogo_Crop.png" alt="">
+    </header>
+    <script src="./res-main/js/header.js"></script>
+    <div class="content_body">
+        <script type="text/javascript">
+            <!-- HIDE FROM INCOMPATIBLE BROWSERS
+                var formData = location.search;
+                formData = formData.replace(/\r?\n|\r/g, "<br>");
+                formData = formData.substring(1, formData.length);
+                while (formData.indexOf("+") != -1) {
+                    formData = formData.replace("+", " ");
+                }
+                formData = unescape(formData);
+                var formArray = formData.split("&");
+                var para=new Array();
+                var gender, behalf;
+
+                function setGender(){
+                    if (gender=="Male") {
+                        document.getElementById("gender").innerHTML="Mr.";
+                        document.getElementById("genderx").innerHTML="He";
+                        document.getElementById("gendery").innerHTML="he";}
+                    else if (gender=="Female") {
+                        document.getElementById("gender").innerHTML="Ms.";
+                        document.getElementById("genderx").innerHTML="She";
+                        document.getElementById("gendery").innerHTML="she";}
+                    else {
+                        document.getElementById("gender").innerHTML="Mx.";
+                        document.getElementById("genderx").innerHTML="They";
+                        document.getElementById("gendery").innerHTML="they";}
+                };
+                function setBehalf(){
+                    if (behalf == null) {
+                        if (gender=="Male") {
+                            document.getElementById("behalf").innerHTML="himself";
+                        } else if (gender=="Female") {
+                            document.getElementById("behalf").innerHTML="herself";
+                        } else {
+                            document.getElementById("behalf").innerHTML="themselves";
+                        }
+                    }
+                    if (behalf == "") {
+                        if (gender=="Male") {
+                            document.getElementById("behalf").innerHTML="himself";
+                        } else if (gender=="Female") {
+                            document.getElementById("behalf").innerHTML="herself";
+                        } else {
+                            document.getElementById("behalf").innerHTML="themselves";
+                        }
+                    }
+                }
+            // STOP HIDING FROM INCOMPATIBLE BROWSERS -->
+            </script>
+            <h2>Your inquiry has been submitted successfully!</h2>
+            <h3>This is what we have gathered...</h3>
+            <p>On <span id="date"></span> at <span id="time"></span>, <span id="gender"></span><span id="name"></span>, representing <span id="behalf"></span> submitted some <span id="type"></span>. <span id="genderx"></span> can be contacted at <span id="contact"></span>. In it, <span id="gendery"></span> said the following:</p>
+            <p id="inquiry"></p>
+            <script>
+                for (var i=0; i < formArray.length; ++i) {
+                    
+                    para=formArray[i].split("=");
+                    
+                    switch (para[0]) {
+                        case "date":document.getElementById("date").innerHTML=para[1];
+                                    break;
+                        case "time": document.getElementById("time").innerHTML=para[1];
+                                    break;
+                        case "name":document.getElementById("name").innerHTML=para[1];
+                                    break;
+                        case "gender":
+                                    document.getElementById("gender").innerHTML=para[1];
+                                    document.getElementById("genderx").innerHTML=para[1];
+                                    document.getElementById("gendery").innerHTML=para[1];
+                                    gender=para[1];
+                                    break;
+                        case "behalf": 
+                                    document.getElementById("behalf").innerHTML=para[1];
+                                    behalf=para[1];
+                                    break;
+                        case "contact":	
+                                    document.getElementById("contact").innerHTML=para[1];
+                                    break;
+                        case "type":
+                                    document.getElementById("type").innerHTML=para[1];
+                                    break;
+                        case "inquiry":
+                                    document.getElementById("inquiry").innerHTML=para[1];
+                                    break;
+                    
+                    }
+                    
+                }
+                setGender();
+                setBehalf();
+            </script>
+    </div>
+    <footer>
+        <p>
+            <span id="copyright">&copy; Debreach'd 2023</span><br><br>Disclaimer: This website is a school project and is not likely to be made real within the next 2 years.<br>More of my school and personal projects are available on my Github.
+        </p>
+    </footer>
+</body>
+</html>

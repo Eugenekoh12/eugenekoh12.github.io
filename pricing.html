@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Draek's Den</title>
+    <title>Debreach'd</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?version=3.111.0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="logo">
@@ -24,180 +27,167 @@
                 </ul>
             </div>
         </nav>
-        <img src="./res-main/img/DBreachdLogo_Crop.png" alt="">
+        <img id="imgLogo" src="./res-main/img/DBreachdLogo_Crop.png" alt="">
     </header>
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var header = document.getElementById("logo");
-        var sticky = header.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-        </script>
+    <script src="./res-main/js/header.js"></script>
     <div class="content_body">
         <h3>Pricing and Features</h3>
         <p>
             As with all products, we do have a few variations you should compare and decide which fits your requirements as well.
         </p>
-        <label for="psw">Sample Password Box</label><br>
-        <input type="password" id="psw" name="psw" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\w\d\s])[a-zA-Z\d]{8,}$" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
     </div>
     <br>
     <div class="content_body">
-        <table>
-            <thead>
-                <tr>
-                    <th>
-                        Features<br><span class="txt_med">Comparison</span>
-                    </th>
-                    <th>
-                        Default<br><span class="txt_med">Without Debreach'd</span>
-                    </th>
-                    <th>
-                        Basic<br><span class="txt_med">With Debreach'd</span>
-                    </th>
-                    <th>
-                        Advanced<br><span class="txt_med">With Debreach'd</span>
-                    </th>
+        <div class="scroll">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Features
+                            <br><span class="txt_med">Comparison</span>
+                        </th>
+                        <th>
+                            Default
+                            <br><span class="txt_med">Without Debreach'd</span>
+                        </th>
+                        <th>
+                            Basic
+                            <br><span class="txt_med">With Debreach'd</span>
+                        </th>
+                        <th>
+                            Advanced
+                            <br><span class="txt_med">With Debreach'd</span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Minimum<br>Password<br>Requirement</th>
+                        <td colspan="3">🔒</td>
+                    </tr>
+                    <tr>
+                        <th>Special<br>Characters<br>Requirement</th>
+                        <td colspan="3">🔒</td>
+                    </tr>
+                    <tr>
+                        <th>Leak<br>Checker:<br>Password<br></th>
+                        <td class="red_td">🔓</td>
+                        <td colspan="2">🔒</td>
+                    </tr>
+                    <tr>
+                        <th>Leak<br>Checker<br>Addon:<br>Email</th>
+                        <td class="red_td">🔓</td>
+                        <td class="yel_td">
+                            🔒
+                            <br><span class="txt_med">Purchaseable<br>Seperately</span>
+                        </td>
+                        <td>🔒</td>
+                    </tr>
+                    <tr>
+                        <th>Password<br>Generator</th>
+                        <td class="red_td">🔓</td>
+                        <td colspan="2">🔒</td>
+                    </tr>
+                    <tr>
+                        <th>Customizeable<br>Password<br>Generator</th>
+                        <td class="red_td">🔓</td>
+                        <td class="yel_td">
+                            🔒
+                            <br><span class="txt_med">Website Owner Only</span>
+                        </td>
+                        <td>🔒</td>
+                    </tr>
+                    <tr>
+                        <th>Password<br>History</th>
+                        <td class="red_td">🔓</td>
+                        <td colspan="2">🔒</td>
+                    </tr>
+                    <tr>
+                        <th>Password<br>Generator<br>Addon:<br>History<br>Management</th>
+                        <td class="red_td">🔓</td>
+                        <td class="yel_td">
+                            🔒
+                            <br><span class="txt_med">Purchaseable<br>Seperately</span>
+                        </td>
+                        <td>🔒</td>
+                    </tr>
+                    <tr>
+                        <th>Password<br>Phrase<br>Generator</th>
+                        <td colspan="2" class="red_td">🔓</td>
+                        <td>🔒</td>
+                    </tr>
+                    <tr>
+                        <th>Multi-Factor<br>Authentication<br>Intergration</th>
+                        <td class="red_td">🔓</td>
+                        <td colspan="2">🔒</td>
+                    </tr>
+                    <tr>
+                        <th>MFA Integration<br>Addon:<br>SMS 2FA</th>
+                        <td class="red_td">🔓</td>
+                        <td class="yel_td" colspan="2">🔒<br><span class="txt_med">Off by Default</span></td>
+                    </tr>
                 </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>
-                        Minimum<br>Password<br>Requirement
-                    </th>
-                    <td>
-                        🔒
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        Special<br>Characters<br>Requirement
-                    </th>
-                    <td>
-                        🔒
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        Leak<br>Checker:<br>Password<br>
-                    </th>
-                    <td class="red_td">
-                        🔓
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        Leak<br>Checker<br>Addon:<br>Email
-                    </th>
-                    <td class="red_td">
-                        🔓
-                    </td>
-                    <td class="yel_td">
-                        🔒<br><span class="txt_med">Purchaseable<br>Seperately</span>
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        Password<br>Generator
-                    </th>
-                    <td class="red_td">
-                        🔓
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        Customizeable<br>Password<br>Generator
-                    </th>
-                    <td class="red_td">
-                        🔓
-                    </td>
-                    <td class="yel_td">
-                        🔒<br><span class="txt_med">Website Owner Only</span>
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        Password<br>History
-                    </th>
-                    <td class="red_td">
-                        🔓
-                    </td>
-                    <td>
-                        🔒<br>
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        Password<br>Generator<br>Addon:<br>History<br>Management
-                    </th>
-                    <td class="red_td">
-                        🔓
-                    </td>
-                    <td class="yel_td">
-                        🔒<br><span class="txt_med">Purchaseable<br>Seperately</span>
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        Password<br>Phrase<br>Generator
-                    </th>
-                    <td class="red_td">
-                        🔓
-                    </td>
-                    <td class="red_td">
-                        🔒
-                    </td>
-                    <td>
-                        🔒
-                    </td>
-                </tr>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <footer></footer>
+                </tbody>
+            </table>
+        </div>
+        <p></p>
+        <br><br>
+        <p>We currently offer 2 solution for customers who want our product. These two options are the Subscription option and the Self-Hosted option. The table below will show the differences of the products.</p>
+        <div class="scroll">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th colspan="2">Subscription</th>
+                        <th colspan="2">Self-Hosted</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>License Period</th>
+                        <td class="td_txt" colspan="2">During<br>Subscribed Period<br><span class="txt_med" style="font-weight: bold;">*Includes Annual Perpetual Fallback License</span></td>
+                        <td class="td_txt" colspan="2">5 Years<br>from purchase<br><span class="txt_med" style="font-weight: bold;">*No updates or support after 5 Years<br>**Except for Critical Updates</span></td>
+                    </tr>
+                    <tr>
+                        <th>Support</th>
+                        <td class="td_txt" colspan="2">Ongoing</td>
+                        <td class="td_txt" colspan="2">During<br>Licensed Period</td>
+                    </tr>
+                    <tr>
+                        <th>Updates</th>
+                        <td class="td_txt" colspan="2">Ongoing</td>
+                        <td class="td_txt" colspan="2">During<br>Licensed Period</td>
+                    </tr>
+                    <tr>
+                        <th>Data</th>
+                        <td class="td_txt" colspan="2">Stored on<br>our Servers</td>
+                        <td class="td_txt" colspan="2">Stored in your<br>company's servers</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Pricing</th>
+                        <td class="td_txt" style="font-weight: bold;">Basic</td>
+                        <td class="td_txt" style="font-weight: bold;">Advanced</td>
+                        <td class="td_txt" style="font-weight: bold;">Basic</td>
+                        <td class="td_txt" style="font-weight: bold;">Advanced</td>
+                    </tr>
+                    <tr>
+                        <td class="td_txt">$22.00/Month</td>
+                        <td class="td_txt">$30.00/Month</td>
+                        <td class="td_txt" rowspan="2">$800</td>
+                        <td class="td_txt" rowspan="2">$1250</td>
+                    </tr>
+                    <tr>
+                        <td class="td_txt">$200.00/Year</td>
+                        <td class="td_txt">$280.00/Year</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div><br>
+    <footer>
+        <p>
+            <span id="copyright">&copy; Debreach'd 2023</span><br><br>Disclaimer: This website is a school project and is not likely to be made real within the next 2 years.<br>More of my school and personal projects are available on my Github.
+        </p>
+    </footer>
 </body>
 </html>

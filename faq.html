@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Draek's Den</title>
+    <title>Debreach'd</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?version=3.111.0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="jquery-ui.theme.min.css">
+    <script>
+        $( function() {
+          $( "#accordion" ).accordion();
+        } );
+    </script>
 </head>
 <body>
     <header id="logo">
@@ -24,22 +35,30 @@
                 </ul>
             </div>
         </nav>
-        <img src="./res-main/img/DBreachdLogo_Crop.png" alt="">
+        <img id="imgLogo" src="./res-main/img/DBreachdLogo_Crop.png" alt="">
     </header>
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var header = document.getElementById("logo");
-        var sticky = header.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-        </script>
-    <footer></footer>
+    <script src="./res-main/js/header.js"></script>
+    <div class="content_body">
+        <h2>Frequently Asked Questions</h2>
+        <div id="accordion">
+            <h4>What's the purpose of Debreach'd?</h4>
+            <div>
+                <p>To prevent a situation like the creator's as one password leak lead to total chaos of his accounts.</p>
+            </div>
+            <h4>Who is the audience for Debreach'd?</h4>
+            <div>
+                <p>Website owners who want to prevent data breaches from affecting your own customers and people who know the hassel of having to change each and every one of your password due to one singular breach.</p>
+            </div>
+            <h4>What is a Perpetual Fallback License?</h4>
+            <div>
+                <p>I'm glad you asked! A perpetual fallback license as defined by us would be a license that upon stopping payment for subscription, allow you to use up to the last year of when you started paying. Eg. if you paid for 1.5 years from Apr 2022, we will leave you with the version of Debreach'd as of Oct 2022, as you've paid for a backdated year's software at this point. Your data will be kept intact and be available for access and download if required.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>
+            <span id="copyright">&copy; Debreach'd 2023</span><br><br>Disclaimer: This website is a school project and is not likely to be made real within the next 2 years.<br>More of my school and personal projects are available on my Github.
+        </p>
+    </footer>
 </body>
 </html>

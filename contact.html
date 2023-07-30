@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Draek's Den</title>
+    <title>Debreach'd</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?version=3.111.0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="logo">
@@ -24,22 +27,41 @@
                 </ul>
             </div>
         </nav>
-        <img src="./res-main/img/DBreachdLogo_Crop.png" alt="">
+        <img id="imgLogo" src="./res-main/img/DBreachdLogo_Crop.png" alt="">
     </header>
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var header = document.getElementById("logo");
-        var sticky = header.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-        </script>
-    <footer></footer>
+    <script src="./res-main/js/header.js"></script>
+    <div class="content_body">
+        <h2>Contact Us</h2>
+        <form action="./response.html" method="GET">
+            <fieldset>
+                <legend>Inquirer's Information</legend>
+                <input type="hidden" id="date" name="date" value="CurrentTime">
+                <input type="hidden" id="time" name="time" value="CurrentDate">
+                <label for="name">Name: <input type="text" name="name" required placeholder="Full Name"></label>
+                <br><label for="gender">Gender as assigned at birth:<input type="radio" name="gender" value="Male" required>Male</input> <input type="radio" name="gender" value="Female" required>Female</input> <input type="radio" name="gender" value="Prefer not to Say" required>Prefer not to Say</input></label>
+                <br><label for="contact">Contact Number: <input type="number" name="contact" title="Telephone Number" min="30000000" minlength="8" placeholder="Phone Number" required></label>
+                <br><label for="behalf">If enquiring on behalf of a company: <input type="text" name="behalf" placeholder="Company Name"></label>
+                <script src="./res-main/js/form_date.js"></script>
+            </fieldset>
+            <fieldset>
+                <legend>Inquiry</legend>
+                <label for="type">Type of Inquiry: <input list="types" name="type" placeholder="Type of Inquiry" required></label>
+                <br><label for="inquiry"><textarea name="inquiry" id="inquiry" cols="50" rows="20"></textarea></label>
+                <datalist id="types">
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Purchase Inquiry">Purchase Inquiry</option>
+                    <option value="Pricing Inquiry">Pricing Inquiry</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                </datalist>
+            </fieldset>
+            <button type="submit">Submit Enquiry</button> <span>OR</span> <button type="reset">Reset Form</button>
+        </form>
+    </div>
+    <footer>
+        <p>
+            <span id="copyright">&copy; Debreach'd 2023</span><br><br>Disclaimer: This website is a school project and is not likely to be made real within the next 2 years.<br>More of my school and personal projects are available on my Github.
+        </p>
+    </footer>
 </body>
 </html>
