@@ -15,6 +15,8 @@ All custom script files are distributed under the [MIT license](LICENSE.md).
 
 Copyright holder by Koh Yong De, Eugene.
 
+Other scripts are under their respective licenses.
+
 ## Assets
 
 All art assets are distributed under the [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) license.
