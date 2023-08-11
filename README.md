@@ -11,7 +11,7 @@ Will eventually sort it out properly and add a welcome screen and stuff instead 
 
 ## Code
 
-All scripts and scene files are distributed under the [MIT license](LICENSE.md).  
+All script files are distributed under the [MIT license](LICENSE.md).  
 Copyright held by Koh Yong De, Eugene.
 
 ## Assets
