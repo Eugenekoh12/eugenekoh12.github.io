@@ -11,16 +11,16 @@ Will eventually sort it out properly and add a welcome screen and stuff instead 
 
 ## Code
 
-All custom script files are distributed under the [MIT license](LICENSE.md).
+All custom script files are distributed under the [MIT license](LICENSE.md) unless otherwise noted.
 
-Copyright holder: Koh Yong De, Eugene.
+Custom Script Copyright holder: Koh Yong De, Eugene.
 
 Other scripts are under their respective licenses.
 
 ## Assets
 
-All custom art assets (ie. music, artwork, etc) are distributed under the [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) license.
+All custom art assets (ie. music, artwork, etc) are distributed under the [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) license unless otherwise noted.
 
-Artist & Copyright holder: Koh Yong De, Eugene.
+Custom Art Assets Artist & Copyright holder: Koh Yong De, Eugene.
 
 Other art assets are under their respective licenses.
