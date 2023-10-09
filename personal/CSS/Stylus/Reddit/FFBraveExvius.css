@@ -1,0 +1,227 @@
+/* ==UserStyle==
+@name        RES + Reddit Night Mode - Final Fantasy Brave Exvius
+@namespace   Eugenekoh12
+@version     1.21.52
+@homepageURL https://github.com/Eugenekoh12/Personal/CSS/Stylus/Reddit/
+@updateURL   https://eugenekoh12.github.io/Personal/CSS/Stylus/Reddit/FFBraveExvius.css
+@author      Eugenekoh12
+@-moz-document url-prefix("https://old.reddit.com/r/FFBraveExvius/"), url-prefix("https://www.reddit.com/r/FFBraveExvius/") {
+ #siteTable{
+    background:#333
+}
+.listing-page .link.stickied{
+    background-color:#2a332e
+}
+.listing-page .linkflair-JMega,.listing-page .linkflair-JNews,.listing-page .linkflair-JDisc,.side .md>blockquote:first-child+blockquote{
+    background:repeating-linear-gradient(-45deg,transparent,transparent 2px,rgba(0,0,0,0.08) 2px,rgba(0,0,0,0.08) 4px),linear-gradient(to top,rgba(0,0,0,0.25),rgba(0,0,0,0) 50px,rgba(0,0,0,0))!important;
+    background-color:#444
+}
+.listing-page .link{
+    background:linear-gradient(to top,rgba(0,0,0,0.25),rgba(0,0,0,0) 50px,rgba(0,0,0,0))
+}
+.ad300x250,.titlebox,.sidecontentbox{
+    background:#333!important
+}
+.side .md blockquote{
+    border:1px dashed #444;
+    background:#444
+}
+.link{
+    box-shadow:0 -1px 0 #565656,0 -1px 0 #565656 inset
+}
+.side .md ul{
+    background:transparent
+}
+.md td,.md tr:hover td{
+    background:#27313a
+}
+.md tr:nth-child(even) td{
+    background:#2c3d4a
+}
+.link{
+    background-color:#373737
+}
+.commentarea .comment,.commentarea .comment .comment,.commentarea .comment .comment .comment,.commentarea .comment .comment .comment .comment,.commentarea .comment .comment .comment .comment .comment,.commentarea .comment .comment .comment .comment .comment .comment,.commentarea .comment .comment .comment .comment .comment .comment .comment,.commentarea .comment .comment .comment .comment .comment .comment .comment .comment,.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment,.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+    background-color:#373737!important;
+    border-color:#222!important
+}
+.link .md blockquote,.comment .md blockquote{
+    background:#444
+}
+.commentarea>.usertext{
+    background:#333
+}
+.create-reddit,.stylesheet-customize-container,.subreddit-rules-page{
+    background:#333
+}
+.wiki-page .wiki-page-content{
+    background:#262626
+}
+#header{
+    border:0;
+    height:200px;
+    background:#000 url("//b.thumbs.redditmedia.com/Y84eY7eI9VjkNQ6XadfAwoPdMJRQMDbZtLI92qu1zsY.png") no-repeat 0 0
+}
+ body{
+    color:#cacaca;
+    background:#030303
+}
+ #siteTable, .sidecontentbox, .create-reddit, .stylesheet-customize-container, .subreddit-rules-page, .search-result-listing, .titlebox, .ad300x250, .sponsor-300-250, .wiki-page .wiki-page-content, .link, .commentarea>.usertext, .comment, .content .details{
+    background:#101010
+}
+ .link{
+    box-shadow:0 -1px 0 #333,0 -1px 0 #333 inset
+}
+ .side .md>blockquote:first-child+blockquote, .listing-page .linkflair-JMega, .listing-page .linkflair-JNews, .listing-page .linkflair-JDisc{
+    background:repeating-linear-gradient(-45deg,transparent,transparent 2px,rgba(255,255,255,0.02) 2px,rgba(255,255,255,0.02) 4px),linear-gradient(to bottom,rgba(255,255,255,0.04),rgba(255,255,255,0) 50px,rgba(255,255,255,0));
+    background-color:#101010
+}
+ .md h2, .wiki-page-content .md h3{
+    border-bottom-color:#ff9c32;
+    color:#ff9c32
+}
+ .livePreview .md h3, .livePreview .md h4, .livePreview .md h6, #BigPreview.md h3, #BigPreview.md h4, #BigPreview.md h6, .link .md h3, .link .md h4, .link .md h6, .comment .md h3, .comment .md h4, .comment .md h6{
+    color:#ff9c32
+}
+ .md th{
+    border-color:#101010
+}
+ .md td{
+    border-color:#101010;
+    color:#cacaca;
+    background:rgb(35,35,35)
+}
+ .side .md blockquote{
+    border-color:#333;
+    background:#161616
+}
+ .md blockquote, .md del, .flair{
+    color:#999
+}
+ .md hr{
+    background:#ff9c32
+}
+ .link .usertext .md, .comment .usertext .md, .titlebox h1 a, .md, .side .md>blockquote:first-child+blockquote td{
+    color:#f0f0f0
+}
+ .morelink:hover, .titlebox form.toggle, .leavemoderator{
+    background:none
+}
+ .icon-menu a{
+    background:none
+}
+ .listing-page .link.stickied{
+    background-color:#021b0b
+}
+ .livePreview .md blockquote, #BigPreview.md blockquote, .link .md blockquote, .comment .md blockquote, .new-comment .md:not(pre)>code, .link .md:not(pre)>code, .usertext.border .md:not(pre)>code, .new-comment .md pre, .md pre, .usertext.border .md pre{
+    background:#161616!important
+}
+ .link .usertext-body .md{
+    border-top-color:#333
+}
+ .side .md>blockquote:first-child+blockquote td:first-child a{
+    color:#ff9c32!important
+}
+ .wiki-page-content .md h2{
+    color:#fff
+}
+ .wiki-page-content .md h1{
+    text-shadow:none;
+    color:#2c6b9e
+}
+ a[href^="/cc"], a[href^="/cc"]:visited{
+    color:#d4186f
+}
+ .thing .title, .thing .source-url, .md a{
+    color:#008cf4
+}
+ .linkinfo, .login-form-side{
+    border-color:#101010;
+    background:#161616;
+    box-shadow:0 0 5px rgba(0,0,0,0.25),0 0 0 1px #333 inset
+}
+ .RES-keyNav-activeElement, .RES-keyNav-activeElement .md-container{
+    background:none!important
+}
+ .entry .buttons li.reported-stamp{
+    color:#000
+}
+ .res-commentBoxes .comment .comment, .res-commentBoxes .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+    background:#161616!important
+}
+ .new-comment .usertext-body, .usertext.border .usertext-body{
+    background:#161616
+}
+ .link .usertext .md, .comment .usertext .md, .titlebox h1 a, .md, .side .md>blockquote:first-child+blockquote td{
+    color:#cacaca
+}
+ .comment .author, a.author{
+    color:#6583a7
+}
+ .link .md :not(pre)>code, .md code{
+    background-color:rgba(255,255,255,0.29)
+}
+ .md pre>code{
+    background:none!important
+}
+ .md tr:nth-child(even) td{
+    background:rgb(25,25,25)
+}
+ .md tr:hover td, .md tr:nth-child(even):hover td{
+    background:rgba(181,212,237,0.26)
+}
+ .thumbnail.self{
+    border:2px dotted #696969;
+    background:#101010;
+    background-image:linear-gradient(to top,rgba(0,0,0,0.25),rgba(0,0,0,0.25) 50%,rgba(0,0,0,0) 50%,rgba(0,0,0,0)),linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 15%,rgba(255,255,255,0.025),rgba(0,0,0,0) 85%,rgba(0,0,0,0))
+}
+ button, .morelink a, .side .md>blockquote:first-child+blockquote+blockquote a, .side .md>blockquote:first-child+blockquote+blockquote p a, .md th, .side .md a[href*="discord.gg/ffbraveexvius"], .side .md a[href*="goo.gl/O0uS8N"], .side .md a[href*="//reddit.com/r/FFBraveExvius/"], .side .md a[href*="//dm.reddit.com/r/FFBraveExvius/"]{
+    color:#fff;
+    background-color:#0d5378
+}
+ .icon-menu a, .gadget .reddit-link-title, .thing .title, .thing .source-url, .md a{
+    color:#22adf5
+}
+ .md h2, .wiki-page-content .md h3{
+    color:#f48f23
+}
+ .side .md>blockquote:first-child+blockquote td:first-child a{
+    color:#f48f23!important
+}
+ .md hr{
+    background:#f48f23
+}
+ .side .md>blockquote:first-child+blockquote th, .side .md>blockquote:first-child+blockquote td{
+    background:none!important
+}
+ .link:before{
+    opacity:0.75
+}
+ .link .linkflairlabel{
+    background-color:transparent
+}
+ .pretty-button{
+    color:#000!important
+}
+ .side .md strong{
+    color:#d2327c
+}
+ a[href*="#label"], a[href*="#label"]:visited{
+    opacity:0.9
+}
+ .side .md>blockquote:first-child, .side .md h3,.sidecontentbox .title h1, .livePreview .md h1, #BigPreview.md h1, .link .md h1, .comment .md h1{
+    background-color:#0a395f!important
+}
+ #search label{
+    color:#000
+}
+ .expando-button, a[href^="#D/stars/"]:after{
+    opacity:0.8
+}
+ .md pre{
+    border:1px solid #649fcd;
+    color:#cacaa7
+}
+}
+==/UserStyle== */
+
