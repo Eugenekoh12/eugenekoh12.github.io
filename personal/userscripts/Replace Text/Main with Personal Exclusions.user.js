@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Replace Text Main - with Personal Exclusions
 // @namespace    https://github.com/Eugenekoh12/Personal
-// @version      1.0.3
+// @version      1.0.4
 // @description  Modified from https://github.com/erickRecai/Replace-Text v1.05.03 by guyRicky. Replaces text with other text.
 // @author       Eugenekoh12
 
@@ -15,8 +15,8 @@
 // @exclude      *://drive.google.com/*
 // @exclude      *://mail.google.com/*
 
-// @updateURL    https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text/Main%20with%20Personal%20Exclusions.meta.js
-// @downloadURL  https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text/Main%20with%20Personal%20Exclusions.user.js
+// @updateURL    https://eugenekoh12.github.io/personal/userscripts/Replace%20Text/Main%20with%20Personal%20Exclusions.meta.js
+// @downloadURL  https://eugenekoh12.github.io/personal/userscripts/Replace%20Text/Main%20with%20Personal%20Exclusions.user.js
 
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
 // @require      https://gist.githubusercontent.com/BrockA/2625891/raw/9c97aa67ff9c5d56be34a55ad6c18a314e5eb548/waitForKeyElements.js
