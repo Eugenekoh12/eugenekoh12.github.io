@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Replace Text - whitemoonxblacksun.ca - AILRCIBTWII
 // @namespace    https://github.com/Eugenekoh12/Personal
-// @version      1.0.3.9
+// @version      1.0.4
 // @description  Modified from https://github.com/erickRecai/Replace-Text v1.05.03 by guyRicky. Replaces text with other text for AILRCIBTWII on whitemoonxblacksun.ca.
 // @author       Eugenekoh12
 
@@ -10,8 +10,8 @@
 // @match        *://whitemoonxblacksun.ca/category/after-i-livestreamed-raising-cubs-i-became-the-wealthiest-in-interstellar/
 // @noframes
 
-// @updateURL    https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text/Websites/Light%20Novels%20%26%20Stories/AILRCIBTWII%20on%20whitemoonxblacksun.ca.meta.js
-// @downloadURL  https://github.com/Eugenekoh12/Personal/raw/master/userscripts/Replace%20Text/Websites/Light%20Novels%20%26%20Stories/AILRCIBTWII%20on%20whitemoonxblacksun.ca.user.js
+// @updateURL    https://eugenekoh12.github.io/personal/userscripts/Replace%20Text/Websites/LN%26Stories/AILRCIBTWII%20on%20whitemoonxblacksun.ca.meta.js
+// @downloadURL  https://eugenekoh12.github.io/personal/userscripts/Replace%20Text/Websites/LN%26Stories/AILRCIBTWII%20on%20whitemoonxblacksun.ca.user.js
 
 // @exclude      *://docs.google.com/*
 // @exclude      *://drive.google.com/*
