@@ -1,0 +1,65 @@
+{
+    "name": "Draek's Den", // installation name
+    "short_name": "Draek", // app title name
+    "start_url": "/index.html",
+    "theme_color": "#272020",
+    "background_color": "#F1EEEE",
+    "display": "standalone",
+    "icons":[
+      {
+        "src": "/res/images/appx192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/res/images/appx512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/res/images/appx192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/res/images/appx512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Healthy Eating",
+        "short_name": "Food",
+        "description": "View weather information for today",
+        "url": "/food.html",
+        "icons": [{ "src": "/res/images/food_app.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Exercising",
+        "short_name": "Exercise",
+        "description": "View weather information for tomorrow",
+        "url": "/exercise.html",
+        "icons": [{ "src": "/res/images/exercise_app.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Sleep Schedule",
+        "short_name": "Sleep",
+        "description": "View weather information for tomorrow",
+        "url": "/sleep.html",
+        "icons": [{ "src": "/res/images/sleep_app.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Rewards Redemption",
+        "short_name": "Rewards",
+        "description": "View weather information for tomorrow",
+        "url": "/rewards.html",
+        "icons": [{ "src": "/res/images/rewards_app.png", "sizes": "192x192" }]
+      }
+    ],
+    "description": "Keep Colour our Health with you anywhere with our Progressive Web App!"
+}

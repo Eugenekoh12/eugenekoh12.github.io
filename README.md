@@ -1,11 +1,11 @@
 # eugenekoh12.github.io
 Personal
 
-Currently being used to host School Project Website.
+Personal Website linking to various projects.
 
-Please ignore random folder as that's technically likely being used by someone else atm.
+Every school and study related project repo will eventually be merged into this (as I do need them to have their own repository for their own github pages link.)
 
-Will eventually sort it out properly and add a welcome screen and stuff instead that leads to each project.
+There will also be experimental stuff here as I mess around to do things.
 
 # Licensing
 
